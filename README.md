@@ -1,0 +1,1 @@
+# android-nonswipeable-viewpager-animation
