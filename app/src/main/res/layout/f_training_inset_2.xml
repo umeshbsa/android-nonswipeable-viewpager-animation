@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic2_layer_map" />
+
+    <RelativeLayout
+        android:id="@+id/tag1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/fragment_inner_two_pin_1"
+            android:layout_width="37dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="28dp"
+            android:src="@drawable/ic_training_pin_location" />
+
+        <ImageView
+            android:id="@+id/fragment_inner_two_deals_1"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/fragment_inner_two_pin_1"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="-6dp"
+            android:layout_toRightOf="@+id/fragment_inner_two_pin_1"
+            android:src="@drawable/ic_training_deals_icon" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/tag1"
+        android:paddingLeft="20dp">
+
+        <ImageView
+            android:id="@+id/fragment_inner_two_pin_2"
+            android:layout_width="37dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_training_pin_location" />
+
+        <ImageView
+            android:id="@+id/fragment_inner_two_deals_2"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/fragment_inner_two_pin_2"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="-6dp"
+            android:layout_toRightOf="@+id/fragment_inner_two_pin_2"
+            android:src="@drawable/ic_training_deals_icon" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

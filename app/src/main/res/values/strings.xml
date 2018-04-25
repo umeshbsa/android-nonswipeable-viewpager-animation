@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Non Swipe Viewpager</string>
+    <string name="TAG_BOTTOM_PADDING">tag_bottom_padding</string>
+
+    <!-- Common Strings -->
+    <string name="app_message">Discovery Purchasing Money</string>
+    <string name="app_pull_to_refresh_pull_label">Pull to refresh</string>
+    <string name="app_pull_to_refresh_release_label">Release to refresh</string>
+    <string name="app_pull_to_refresh_refreshing_label">Loading</string>
+    <string name="app_pull_to_refresh_tap_label">Tap to refresh</string>
+    <string name="app_cancel">Cancel</string>
+    <string name="app_clear">Clear</string>
+    <string name="app_next">Next</string>
+    <string name="app_submit">Submit</string>
+    <string name="app_save">Save</string>
+    <string name="app_done">Done</string>
+    <string name="app_on">On</string>
+    <string name="app_off">Off</string>
+    <string name="app_ok">OK</string>
+    <string name="app_update">Update</string>
+    <string name="app_sort">Sort</string>
+    <string name="app_select">Select</string>
+    <string name="app_confirm">Confirm</string>
+    <string name="app_delete">Delete</string>
+    <string name="app_continue">Continue</string>
+    <string name="app_remove">Remove</string>
+    <string name="app_click_here">Click here.</string>
+    <string name="request_processed_successfully">Request processed successfully.</string>
+    <string name="app_password_hint">*</string>
+    <string name="digits">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ .0123456789@#!$*&amp;</string>
+
+    <!-- Drawer -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- Drawer Items -->
+    <string name="shortcuts">Shortcuts</string>
+    <string name="search">Search</string>
+    <string name="accounts">Accounts</string>
+    <string name="annuity_zone">Planned-Spend Account</string>
+    <string name="feed">Feed</string>
+    <string name="money">Money</string>
+    <string name="upgrade_now">UPGRADE NOW</string>
+    <string name="plus_only"> (Plus Only)</string>
+    <string name="venue">Venue Tap</string>
+    <string name="bank">SitiBank Card</string>
+    <string name="popmoney">Popmoney</string>
+    <string name="deposits">Deposit Check</string>
+    <string name="pay">Pay</string>
+    <string name="explore">Explore</string>
+    <string name="deals">Deals</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="gift_cards">Gift Cards</string>
+    <string name="rewards">Rewards</string>
+    <string name="atm">ATM/Reload Locations</string>
+    <string name="venues">Venues</string>
+    <string name="account">Your Account</string>
+    <string name="check_In_text">Checked-in on</string>
+    <string name="manage_friends">Manage Friends</string>
+    <string name="privacy">Privacy</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+
+    <!-- Join/Login Screen -->
+    <string name="join_txt_login">Log In</string>
+    <string name="join_txt_join">Join</string>
+    <string name="login_txt_or">or</string>
+
+    <!-- Register Screen -->
+    <string name="register_txt_back_to_login">Back to Login</string>
+    <string name="register_txt_next">Next</string>
+    <string name="register_txt_bio_text_count">0/200</string>
+    <string name="register_txt_go_back">Go Back</string>
+    <string name="register_txt_create_account">Create Account</string>
+    <string name="register_txt_verify_my_account">Verify My Account</string>
+    <string name="register_txt_verify_your_account">Verify Your Account</string>
+    <string name="register_txt_verify_account_message">We sent you a text and email.You can use either code to verify your account!</string>
+    <string name="register_txt_read_and_agree">I have read &amp; agree to the </string>
+    <string name="register_txt_terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="register_txt_send_me_details">Send me details on the </string>
+    <string name="register_txt_urbanft_debit_card">UrbanFT Debit Card</string>
+    <string name="register_txt_code_not_received">Didn\'t receive a code?</string>
+    <string name="register_txt_resend_now">Resend now.</string>
+    <string name="register_txt_gender">Gender</string>
+    <string name="register_hint_first_name">First Name</string>
+    <string name="register_hint_last_name">Last Name</string>
+    <string name="register_hint_email">Email</string>
+    <string name="register_hint_phone">Phone</string>
+    <string name="register_hint_password">Password</string>
+    <string name="register_hint_confirm_password">Confirm Password</string>
+    <string name="register_hint_bio">Bio - Tell us about yourself</string>
+    <string name="register_hint_state">State</string>
+    <string name="register_hint_city">City</string>
+    <string name="register_hint_zipcode">Zipcode</string>
+    <string name="register_hint_address">Address</string>
+    <string name="register_hint_address_line_2">Address Line 2 (optional)</string>
+    <string name="register_hint_country">Country</string>
+    <string name="register_hint_birthday">Birthday</string>
+    <string name="register_hint_email_verification_code">Email Verification Code</string>
+    <string name="register_hint_mobile_verification_code">Mobile Verification Code</string>
+
+    <!-- ATM Finder Screen -->
+    <string name="atm_finder_title">ATM Finder</string>
+    <string name="atm_finder_your_current_location">Your Current Location</string>
+    <string name="atm_finder_message">Find UrbanFT ATMs or banking centers near:</string>
+    <string name="atm_finder_my_current_location">My Current Location</string>
+    <string name="atm_finder_zip_code">Zip Code</string>
+    <string name="atm_finder_which_service">Which service would you like to search for?</string>
+    <string name="atm_finder_network_atm">In Network ATM</string>
+    <string name="atm_finder_out_of_network">Out of Network ATM</string>
+    <string name="atm_finder_banking_centers">Banking Centers</string>
+    <string name="atm_finder_reload_stations">Reload Stations</string>
+    <string name="atm_finder_enter_your_zipcode">Please enter your zipcode</string>
+    <string name="atm_finder_listview">List View</string>
+    <string name="atm_finder_mapview">Map View</string>
+    <string name="atm_finder_get_directions">Get Directions</string>
+
+    <!-- Forgot Password Screen -->
+    <string name="forgot_password_title">Forgot Password?</string>
+    <string name="forgot_password_change_password">Change Password</string>
+    <string name="forgot_password_hint_phone">Phone Number on File</string>
+    <string name="forgot_password_donot_worry">Don\'t worry it happens!</string>
+    <string name="forgot_password_make_it_easy">To make it easy, we will send you a super secret code for a Password Reset</string>
+    <string name="forgot_password_already_have_account">Remembered your Password?</string>
+    <string name="forgot_password_signin_now">Sign in now!</string>
+    <string name="forgot_password_reset_code">Reset Code</string>
+    <string name="forgot_password_reset_code_message">We just sent a reset code to your email. Input it below. Let\'s go!</string>
+    <string name="forgot_password_create_new">Create a new password</string>
+    <string name="forgot_password_new_password">New Password</string>
+    <string name="forgot_password_confirm_password">Confirm Password</string>
+    <string name="forgot_password_change_password_title">Password must match two of the following requirement</string>
+
+    <!-- NewsFeedActivity -->
+    <string name="nf_text_user_name">Anthony Lucis</string>
+    <string name="nf_text_venue_list_title">Local Deals</string>
+    <string name="nf_text_friend_list_title">Suggested Friends</string>
+    <string name="nf_text_friend_list_sub_title">Add Friends to see their activity</string>
+    <string name="nf_text_more_friend_list">See All Suggestions</string>
+    <string name="nf_text_add">Add</string>
+    <string name="feed_text_quote">\"</string>
+    <string name="feed_text_user_private_account">This user has a private account</string>
+    <string name="feed_text_suggested_friends">Suggested Friends</string>
+    <string name="text_friends">Friends</string>
+    <string name="text_friends_caps">FRIENDS</string>
+    <string name="feed_text_likes">Likes</string>
+    <string name="feed_text_flag_inappropriate">Flag as Inappropriate</string>
+    <string name="feed_text_flag_spam">Flag as Spam</string>
+    <string name="feed_text_delete">Delete Comment</string>
+    <string name="feed_text_previous_comments">Previous Comments</string>
+    <string name="feed_text_item">Feed Item</string>
+    <string name="feed_text_no_feed">No Feed Found</string>
+    <string name="feed_text_view_all">View all</string>
+    <string name="feed_text_view">View</string>
+    <string name="nf_text_check_out">Check out his profile.</string>
+    <string name="nf_text_filter">Filter</string>
+    <string name="feed_text_notifications">Notifications</string>
+    <string name="feed_text_filter">Filter</string>
+    <string name="feed_text_about">About</string>
+    <string name="feed_text_support">Support</string>
+    <string name="feed_text_feedback">Feedback</string>
+    <string name="feed_text_logout">Log Out</string>
+    <string name="nf_text_add_venue">Know any good Venues?</string>
+    <string name="nf_text_add_venue_detail">If you know any good venue thats not been posted yet now is your chance to share it with your friends.</string>
+    <string name="nf_text_earn_points">Earn (this many) Points</string>
+    <string name="feed_comment_hint">Comment Here...</string>
+    <string name="feed_text_checkin">Check-in</string>
+    <string name="checkin_title">Check-In</string>
+    <string name="near_deal_text">Deals Near You</string>
+    <!-- Venue Tap -->
+    <string name="vt_venue_search">Search Venue</string>
+    <string name="vt_contact">Contact</string>
+    <string name="vt_title">Venue Tap</string>
+    <string name="vt_text_venues">Venues</string>
+    <string name="vt_text_deals">Deals</string>
+    <string name="vt_text_bookmark">Bookmarks</string>
+    <string name="vt_text_more">More</string>
+    <string name="vt_text_venue_categories">Venue Categories</string>
+    <string name="vt_text_trending_venues">Trending Venue</string>
+    <string name="vt_text_like_to_do">What would you like to do?</string>
+    <string name="vt_text_find_nearby_restaurant">Find a Nearby Restaurant</string>
+    <string name="vt_text_check_out_local_bars">Check Out the Local Bars</string>
+    <string name="vt_text_grab_coffee">Grab a Coffee</string>
+    <string name="vt_text_show_me_trending_spots">Show Me Trending Spots</string>
+    <string name="vt_text_bang_your_buck">Get the Most Bang for Your Buck</string>
+    <string name="vt_text_no_trending_venue">No Trending Venue Found</string>
+    <string name="vt_text_view_more_categories">View More Categories</string>
+    <string name="vt_text_nearby_venues_with_deals">Nearby Venues with Deals</string>
+    <string name="vt_text_more_categories">More Categories</string>
+    <string name="vt_hint_search_nearby_venues">Search Nearby Venues...</string>
+
+    <!-- Edit Venue -->
+    <string name="ev_title">Edit Venue</string>
+
+    <!-- Add Venue -->
+    <string name="av_title">Add Venue</string>
+    <string name="av_text_required_fields">*required fields</string>
+    <string name="av_text_venue_name">Venue Name</string>
+    <string name="av_text_confirm_location_to_add_venue">Confirm Location to Add Venue</string>
+    <string name="av_text_venue_name_star">Venue Name*</string>
+    <string name="av_text_address">Address*</string>
+    <string name="av_text_address_line2">Address Line 2</string>
+    <string name="av_text_use_current_location">Use Current Location</string>
+    <string name="av_text_street">Street</string>
+    <string name="av_text_contact">Contact</string>
+    <string name="av_hint_phone_number">Phone Number</string>
+    <string name="av_hint_website">Website</string>
+    <string name="av_hint_website_url">Website URL</string>
+    <string name="av_hint_category">Category</string>
+    <string name="av_hint_price">Price</string>
+    <string name="av_text_additional_info">Additional Info</string>
+    <string name="av_text_time">i.e. M-F 9am-6pm,Sat 11am-8pm</string>
+    <string name="av_text_add_photo">Add Photo</string>
+    <string name="av_text_state_selection">Select State</string>
+    <string name="av_text_price_range">Price Range</string>
+    <string name="av_text_one_dollar">$</string>
+    <string name="av_text_two_dollar">$$</string>
+    <string name="av_text_three_dollar">$$$</string>
+    <string name="av_text_four_dollar">$$$$</string>
+    <string name="av_text_first_range">&lt; $10</string>
+    <string name="av_text_second_range">$10 - $30</string>
+    <string name="av_text_third_range">$30 - $65</string>
+    <string name="av_text_fourth_range">$65 &gt;</string>
+    <string name="av_text_take_new_photo">Take New Photo</string>
+    <string name="av_text_choose_existing_photo">Choose Existing Photo</string>
+    <string name="av_text_preview_photo">Preview Photo</string>
+    <string name="av_text_remove_existing_photo">Remove Photo</string>
+    <string name="av_text_bookmark">Bookmark</string>
+    <string name="av_text_checkin">Check-in</string>
+    <string name="av_text_edit_venue">Edit Venue</string>
+    <string name="av_text_add_tip">Add Tip</string>
+    <string name="av_text_add_website">Add Website</string>
+    <string name="av_text_add_address">Add Address</string>
+    <string name="av_text_add_phone_number">Add Phone Number</string>
+    <string name="av_text_write_tips">Write Some Tips</string>
+    <string name="av_text_user_tip">\"Your tip could be displayed here!\"</string>
+    <string name="av_text_venue_info">Venue successfully added! We will notify you once it\'s available for pubic viewing.</string>
+
+    <!-- Confirm Venue -->
+    <string name="cv_text_share">Share</string>
+    <string name="cv_text_location">Location</string>
+    <string name="cv_text_auto_checkin_settings">Auto Check-in Settings</string>
+    <string name="cv_text_bookmark_venue">Bookmark Venue</string>
+    <string name="cv_text_remove_bookmark">Remove Bookmark</string>
+    <string name="cv_text_bookmark_venue_message">Would you like to receive an alert when this venue has deals available?</string>
+    <string name="cv_text_make_reservation">Make Reservation</string>
+    <string name="cv_text_share_venue">Share Venue</string>
+    <string name="cv_text_view_deal">View Deal</string>
+    <string name="cv_text_flag_venue">Flag Venue</string>
+    <string name="cv_text_no_thanks">No Thanks</string>
+    <string name="cv_text_yes_please">Yes, Please</string>
+    <string name="cv_text_directions">Directions</string>
+    <string name="cv_text_text_make_reservation">Make Reservation</string>
+    <string name="cv_text_upload_photos">Upload (0/5)</string>
+    <string name="cv_text_add_photos">Add Photos</string>
+    <string name="cv_text_bookmark_settings">Bookmark Settings</string>
+    <string name="cv_text_photo_gallery">Photo Gallery</string>
+    <string name="cv_text_photos">Photos</string>
+    <string name="cv_text_available_deals">Available Deals</string>
+    <string name="cv_text_upload_photo">Upload Photo</string>
+    <string name="cv_text_see_all_deals">See All Available Deals</string>
+    <string name="cv_text_expires_on">Expires on</string>
+    <string name="cv_text_sell_all_photos">See All Photos</string>
+    <string name="cv_text_flag_venue_message">Why are you flagging this venue?</string>
+    <string name="cv_text_bookmark_settings_message">Would you like to be notified when deals become available for this venue?</string>
+    <string name="cv_text_add_tip">Add Tip</string>
+    <string name="cv_text_see_all_tip">See All Tips</string>
+    <string name="cv_text_see_all_reviews">See All Reviews</string>
+
+    <!-- Search Venue -->
+    <string name="sv_title">Search Venue</string>
+    <string name="sv_text_filter">Filter</string>
+    <string name="sv_text_filter_apply">Apply</string>
+    <string name="sv_text_filter_by">Filter by:</string>
+    <string name="sv_text_filter_your_search">Filter your search by content type</string>
+    <string name="sv_text_sort_by">Sort By</string>
+    <string name="sv_text_rating">Rating</string>
+    <string name="sv_text_distance">Distance</string>
+    <string name="sv_text_best_match">Best Match</string>
+    <string name="sv_text_price">Price</string>
+    <string name="sv_text_show_me_venues">Show Me Venues That:</string>
+    <string name="sv_text_are_open_now">Are Open Now</string>
+    <string name="sv_text_have_deals">Have Deals</string>
+    <string name="sv_text_friends_have_been">My Friends Have Been To</string>
+    <string name="sv_text_i_have_been">I Have Been To</string>
+    <string name="sv_text_i_have_bookmarked">I Have Bookmarked</string>
+    <string name="sv_text_search_near">Search Near</string>
+    <string name="sv_text_current_location">Current Location</string>
+    <string name="sv_text_filter_By">Filter By:</string>
+    <string name="sv_text_top_rated">Top Rated</string>
+    <string name="sv_text_places">PLACES</string>
+    <string name="sv_focus_search">Focus Your Search:</string>
+    <string name="sv_text_deals">Deals</string>
+    <string name="sv_text_trending">Trending</string>
+    <string name="sv_text_recently_viewed">Recently Viewed</string>
+    <string name="sv_text_bang_your_buck">Bang for your Buck</string>
+    <string name="sv_text_bookmarked">Bookmarked</string>
+    <string name="sv_text_looking_for">Don\'t see what you\'re looking for?</string>
+    <string name="sv_text_add_venue_here">Add a new venue here</string>
+    <string name="sv_text_one_block">1 Block</string>
+    <string name="sv_text_point_two_five_mile">.25 Miles</string>
+    <string name="sv_text_point_five_mile">.5 Miles</string>
+    <string name="sv_text_one_mile">1 Mile</string>
+    <string name="sv_text_five_miles">5 Miles</string>
+    <string name="sv_text_more_than_five_miles">5 Miles or More</string>
+
+    <!-- Save CheckIn -->
+    <string name="sc_text_add_friends">Add Friends</string>
+    <string name="sc_text_CheckIn">Check-ins</string>
+    <string name="sc_text_upload_photo">Upload Photo</string>
+    <string name="sc_text_add_photo">Add Photo</string>
+    <string name="sc_text_facebook">Facebook</string>
+    <string name="sc_text_google">Google +</string>
+    <string name="sc_text_twitter">Twitter</string>
+    <string name="sc_text_foursquare">Foursquare</string>
+    <string name="sc_text_make_checkin_private">Make Check-in Private</string>
+    <string name="sc_text_make_checkin_public">Make Check-in Public</string>
+    <string name="sc_hint_checkin">Check in at this venue..</string>
+    <string name="sc_text_no_friend">You don\'t have any friend.</string>
+    <string name="sc_text_private">PRIVATE</string>
+    <string name="sc_text_public">PUBLIC</string>
+    <string name="no_checkin_found">No Check-in Found</string>
+
+    <!-- Manage Friends -->
+    <string name="mf_manage_search">Search</string>
+    <string name="mf_manage_friends">Manage Friends</string>
+    <string name="mf_friends">Friends</string>
+    <string name="mf_no_friend_found">No Friend Found</string>
+    <string name="mf_add_friend">Add Friend</string>
+    <string name="mf_friends_request">Friend Requests</string>
+    <string name="mf_find_friends_from_facebook">Find Friends from Facebook</string>
+    <string name="mf_find_friends_from_twitter">Find Friends from Twitter</string>
+    <string name="mf_find_friends_from_google_plus">Find Friends from Google+</string>
+    <string name="mf_find_friends_from_four_square">Find Friends from Foursquare</string>
+    <string name="mf_find_friends_from_address_book">Find Friends from Address Book</string>
+    <string name="mf_no_friend_selected">No friend selected</string>
+    <string name="mf_remove_friend_title">Remove Friend</string>
+    <string name="mf_remove_friend_message">Do you really want to remove %1$s from your friend list?</string>
+
+    <!-- Manage Friends - Friend Request -->
+    <string name="mf_friendrequest_titlename">Friend Requests</string>
+    <string name="mf_requestdeny">Deny</string>
+    <string name="mf_requestaccept">Accept</string>
+
+    <!-- Manage Friends - Friends -->
+    <string name="mf_friend_titlename">Friends</string>
+    <string name="mf_friend_remove">Remove</string>
+    <string name="mf_friend_deny">Deny</string>
+    <string name="mf_no_friend_request">You don\'t have any friend request.</string>
+
+    <!-- Friend Profile -->
+    <string name="fp_contact">Contact</string>
+    <string name="fp_remove_friend">Remove Friend</string>
+    <string name="fp_add_friend">Add Friend</string>
+    <string name="fp_friend_requested">Friend Requested</string>
+    <string name="fp_friend_pending_request">Request Pending</string>
+    <string name="fp_accept_friend_request">Accept Friend Request</string>
+    <string name="fp_cancel_request">Cancel Request</string>
+
+    <!-- Tip -->
+    <string name="tip_title">Tip</string>
+    <string name="tip_add_photo">Add Photo</string>
+    <string name="tip_submit">Submit</string>
+    <string name="tip_rating">Rating</string>
+
+    <!-- Tip - Add adition info -->
+    <string name="tip_aditioninfo_skip">Skip</string>
+    <string name="tip_aditioninfo_price">Price</string>
+    <string name="tip_aditioninfo_category">Category</string>
+    <string name="tip_aditioninfo_additional_info">Additional Info</string>
+    <string name="tip_aditioninfo_additional_sub_info_1">Provide us with cateogry and cost details for</string>
+    <string name="tip_aditioninfo_additional_sub_info_2">Provide us with cateogry and price details about this venue will significantly improve the accuracy of the information</string>
+    <string name="tip_aditioninfo_next">Next</string>
+
+    <!-- ConfirmVenue : See All Reviews -->
+    <string name="cv_seeAllReview">All Reviews</string>
+    <string name="cv_seeAllReview_sort">Sort</string>
+    <string name="cv_seeUserAllReview">Reviews</string>
+    <string name="cv_noReviewfound">No Review Found</string>
+    <string name="cv_noReviewAllReviewsAll">All Reviews</string>
+    <string name="review_comment_flag">Flag comment</string>
+    <string name="review_helpful_message">Did you find this Review useful?</string>
+
+    <!-- ConfirmVenue : See All Tips -->
+    <string name="cv_seeAllTip">All Tips</string>
+    <string name="cv_noTipfound">No Tip Found</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_get_the_card">Get the card</string>
+    <string name="settings_reset_atm_pin">Reset ATM Pin</string>
+    <string name="settings_card_status">Card Status</string>
+    <string name="settings_funding_your_account">Funding Your Account</string>
+    <string name="settings_statement">Statement</string>
+    <string name="settings_auto_check_in">Auto Check-in</string>
+    <string name="settings_financial_accounts">Financial Accounts</string>
+    <string name="settings_manage_financial_accounts">Manage Financial Accounts</string>
+    <string name="settings_friends">Friends</string>
+    <string name="settings_manage_friends">Manage Friends</string>
+    <string name="settings_social">Social</string>
+    <string name="settings_manage_linked_accounts">Manage Linked Social Accounts</string>
+    <string name="settings_personal">Personal</string>
+    <string name="settings_legal">Legal</string>
+    <string name="settings_additional">Additional</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_about">About</string>
+    <string name="settings_terms_conditions">Terms &amp; Conditions</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_fee_schedule">Fee Schedule</string>
+    <string name="settings_credits">Credits</string>
+    <string name="settings_app_version">App Version - %1$s</string>
+    <string name="settings_pricing">Pricing</string>
+
+    <string name="settings_support_feedback">Support &amp; Feedback</string>
+    <string name="settings_support">Support</string>
+    <string name="settings_feedback">Feedback</string>
+    <string name="settings_version_app">App Version</string>
+    <string name="settings_item">Item</string>
+    <string name="settings_amount">Amount</string>
+    <string name="settings_this_is_waspit">This is Waspit %1$s</string>
+    <string name="settings_no_fee_schedule">No Fee Schedule Found</string>
+    <!-- Recent search -->
+    <string name="recent_search">RECENT SEARCHES</string>
+
+    <!-- BookMark Venue -->
+    <string name="Drag_Down">DRAG DOWN FOR MAP VIEW</string>
+    <string name="Drag_UP">DRAG UP FOR LIST VIEW</string>
+    <string name="bookmark_sort_title">Sort</string>
+
+    <!-- Privacy Settings -->
+    <string name="ps_title">Privacy Settings</string>
+    <string name="ps_personal">Personal</string>
+    <string name="ps_keep_profile_private">Keep my profile private</string>
+    <string name="ps_search_by_email">Allow search by my email</string>
+    <string name="ps_search_by_name">Allow search by my name</string>
+    <string name="ps_search_by_phone_number">Allow search by my phone number</string>
+    <string name="ps_display_profile_picture">Display my profile picture in searches</string>
+    <string name="ps_search_by_engines">Allow search by search engines</string>
+    <string name="ps_allow_friends_check_in">Allow friends to check me in</string>
+    <string name="ps_search">Search</string>
+    <string name="ps_location">Location</string>
+
+    <!-- Security -->
+    <string name="security_title">Security</string>
+    <string name="security_password">Password</string>
+    <string name="security_change_password">Change Password</string>
+    <string name="security_access_code">Access Code</string>
+    <string name="security_change_access_code">Change Access Code</string>
+    <string name="security_hint_old_password">Old Password</string>
+    <string name="security_hint_new_password">New Password</string>
+    <string name="security_hint_reenter_password">Re-Enter New Password</string>
+    <string name="security_enter_code_message">Enter your new 4 digit code below.</string>
+    <string name="security_confirm_code_message">Re-Enter your code to confirm.</string>
+    <string name="security_change_code">Change Code</string>
+    <string name="security_fingerprint_id">Fingerprint ID</string>
+
+    <!-- Feedback -->
+    <string name="feedback_submit_feedback_message">Please Submit your Feedback Here</string>
+    <string name="feedback_message">Tell us what\'s going on so we can try our best to fix it.</string>
+    <string name="feedback_hint_message">Please provide feedback here...</string>
+    <string name="feedback_include_system_data">Include System Data</string>
+    <string name="feedback_include_screnshot">Include Screenshot</string>
+    <string name="feedback_include_bank_info">Include SitiBank Account Info</string>
+    <string name="feedback_agree_privacy_policy">I agree to the Privacy Policy</string>
+    <string name="feedback_submit_feedback">Submit Feedback</string>
+    <string name="support_looking_for">Looking for some support?</string>
+    <string name="support_message">Click below to dial our support line.</string>
+    <string name="support_call">Call Support</string>
+
+    <!-- Bookmark venue sort -->
+    <string name="sort_by_date">Date Added</string>
+    <string name="sort_by_alphabetical_order">Alphabetical Order</string>
+    <string name="sort_by_distance">Distance From Me</string>
+    <string name="sort_by_expiration_date">Expiration Date</string>
+    <string name="sort_by_date_bookmarked">Date Bookmarked</string>
+    <string name="sort_by_price">Price</string>
+    <string name="sort_by_most_visited">Most Visited</string>
+    <string name="sort_venues_bookmark">Sort Bookmarked Venues</string>
+    <string name="sort_deal_bookmark">Sort Bookmarked Deals</string>
+
+    <!-- Venue serach filter -->
+    <string name="list_option">List</string>
+    <string name="list_option_back_to_list">Back To List</string>
+    <string name="map_option">Map</string>
+
+    <!-- User Profile Photos -->
+    <string name="up_photos_title">Photos</string>
+    <string name="up_photos_no_photos_present">No Photo Found</string>
+
+    <!-- Deals -->
+    <string name="deals_categories">Deals Categories</string>
+    <string name="deals_like_to_browse">What kind of deals would you like to browse?</string>
+    <string name="deals_find_restaurant_deals">Find Restaurant Deals</string>
+    <string name="deals_find_nightlife_deals">Find Nightlife Deals</string>
+    <string name="deals_find_gas_stataion_deals">Find Gas Station Deals</string>
+    <string name="deals_no_trending_deal">No Trending Deal Found</string>
+    <string name="no_feed_offer">No Feed Offer Found</string>
+    <string name="deals_no_result_found">No Result Found</string>
+    <string name="deals_redo_search">Redo Search in this Area</string>
+    <string name="deals_nearby_deals">Nearby Deals</string>
+    <string name="deals_value">Value</string>
+    <string name="deals_discount">Discount</string>
+    <string name="deals_expires_on">Expires on %1$s</string>
+    <string name="deals_expires_on_detail">Expires on</string>
+    <string name="deals_deal_details">Deal Details</string>
+    <string name="deals_venue_details">Venue Details</string>
+    <string name="deals_time_remaining">Time Remaining</string>
+    <string name="deals_purchase">Purchase</string>
+    <string name="deals_bookmark_deal">Bookmark Deal</string>
+    <string name="deals_purchase_deal">Purchase Deal</string>
+    <string name="deals_purchase_by">Purchase by %1$s</string>
+    <string name="deals_share_deal">Share Deal</string>
+    <string name="deals_share_via_facebook">Share via Facebook</string>
+    <string name="deals_share_via_twitter">Share via Twitter</string>
+    <string name="deals_share_via_google">Share via Google</string>
+    <string name="deals_flag_deal">Flag Deal</string>
+    <string name="deals_flag_reason">Reason for Flagging</string>
+    <string name="deals_flag_incorrect_details">Incorrect/Misleading Details</string>
+    <string name="deals_flag_expired_deal">Expired Deal</string>
+    <string name="deals_flag_broken_link">Broken Link</string>
+    <string name="deals_flag_other">Other</string>
+    <string name="deals_not_available">NA</string>
+    <string name="deals_provided_by">Deal Provided by</string>
+    <string name="deals_type_comment_here">Type comment here...</string>
+    <string name="deals_bookmark_deal_message">Would you like to receive an alert when this deal is about to expire?</string>
+
+    <!-- Feed -->
+    <string name="venue_prompt_know_venue">Know any good Venues?</string>
+    <string name="venue_prompt_know_venue_detail">If you know a good venue thats not been posted yet now is your chance to share it with your friends.</string>
+
+    <!-- Deal Search Filter -->
+    <string name="deals_filter_text_dollar_0_20">$0 - $20</string>
+    <string name="deals_filter_text_dollar_25_50">$25 - $50</string>
+    <string name="deals_filter_text_dollar_over50">Over $50</string>
+    <string name="deals_filter_text_show_ne_deals_that">Show Me Deals That:</string>
+    <string name="deals_filter_text_have_venue_info_available">Have Venue Information Available</string>
+    <string name="deals_filter_text_my_friends_have_viewed">My Friends Have Viewed</string>
+    <string name="deals_filter_text_i_have_bookmarked">I Have Bookmarked</string>
+
+    <!-- Deals Search -->
+    <string name="deals_search_text_deals">Deals</string>
+    <string name="deals_search_text_recently_added">Recently Added</string>
+    <string name="deals_search_text_expiry_soon">Expiring Soon</string>
+    <string name="deals_search_text_trending">Trending</string>
+    <string name="deals_search_text_recently_viewed">Recently Viewed</string>
+    <string name="deals_search_text_bookmarked">Bookmarked</string>
+    <!-- Feeds -->
+    <!-- <string name="share_deal_text">Just shared a new deal! Check it out.</string> -->
+    <string name="share_deal_text">Just shared %1$s</string>
+    <string name="share_deal_text_with_one">Just shared %1$s with %2$s.</string>
+    <string name="share_deal_text_with_two">Just shared %1$s with %2$s and %3$s.</string>
+    <string name="share_deal_text_with_three">Just shared %1$s with %2$s and %3$s and 1 other.</string>
+    <string name="share_deal_text_with_more">Just shared %1$s with %2$s and %3$s and %4$s others.</string>
+    <string name="share_checkIn_text_with_one"> with %1$s.</string>
+    <string name="share_checkIn_text_with_two"> with %1$s and %2$s.</string>
+    <string name="share_checkIn_text_with_three"> with %1$s and %2$s and 1 other.</string>
+    <string name="share_checkIn_text_with_more"> with %1$s, %2$s and %3$s others.</string>
+
+    <!-- Notification -->
+    <string name="notification">Notifications</string>
+    <string name="no_notification">No Notification Found</string>
+    <string name="review_comment_1">%1$s commented your review of %2$s</string>
+    <string name="review_comment_2">%1$s and %2$s commented your review of %3$s</string>
+    <string name="review_comment_3">%1$s, %2$s, and %3$s commented your review of %4$s</string>
+    <string name="review_comment_4">%1$s, %2$s, and %3$s others commented your review of %4$s</string>
+    <string name="review_helpful_1">%1$s found your review of %2$s helpful</string>
+    <string name="review_helpful_2">%1$s and %2$s found your review of %3$s helpful</string>
+    <string name="review_helpful_3">%1$s, %2$s, and %3$s found your review of %4$s helpful</string>
+    <string name="review_helpful_4">%1$s, %2$s, and %3$s others found your review of %4$s helpful</string>
+    <string name="venue_share">%1$s has shared %2$s with you</string>
+    <string name="reservation_reminder">Reservation Reminder for %1$s at %2$s %3$s</string>
+    <string name="venue_approved">%1$s has been approved and is now searchable</string>
+    <string name="venue_address_aapproved">The address you have added for %1$s has been approved</string>
+    <string name="venue_phone_approved">The phone number you have added for %1$s has been approved</string>
+    <string name="venue_website_approved">The website you have added for %1$s has been approved</string>
+    <string name="venue_declined">%1$s has been declined</string>
+    <string name="venue_address_declined">The address you have added for %1$s has been declined</string>
+    <string name="venue_phone_declined">The phone number you have added for %1$s has been declined</string>
+    <string name="venue_website_declined">The website you have added for %1$s has been declined</string>
+
+    <!-- Notification Feed -->
+    <!-- Notification Feed venue_comment -->
+
+    <string name="venue_comment_1">%1$s commented on your addition of %2$s</string>
+    <string name="venue_comment_2">%1$s and %2$s commented on your addition of %3$s</string>
+    <string name="venue_comment_3">%1$s, %2$s, and %3$s commented on your addition of %4$s</string>
+    <string name="venue_comment_4">%1$s, %2$s, and %3$s others commented on your addition of %4$s</string>
+
+    <!-- Notification Feed venue_like -->
+    <string name="venue_like_1">%1$s liked your addition of %2$s</string>
+    <string name="venue_like_2">%1$s and %2$s liked your addition of %3$s</string>
+    <string name="venue_like_3">%1$s, %2$s, and %3$s liked your addition of %4$s</string>
+    <string name="venue_like_4">%1$s, %2$s, and %3$s others liked your addition of %4$s</string>
+
+    <!-- Notification Feed  rating_comment -->
+    <string name="rating_comment_1">%1$s commented on your rating of %2$s</string>
+    <string name="rating_comment_2">%1$s and %2$s commented on your rating of %3$s</string>
+    <string name="rating_comment_3">%1$s, %2$s, and %3$s commented on your rating of %4$s</string>
+    <string name="rating_comment_4">%1$s, %2$s, and %3$s others commented on your rating of %4$s</string>
+
+    <!-- Notification Feed  rating_like -->
+    <string name="rating_like_1">%1$s liked your rating of %2$s</string>
+    <string name="rating_like_2">%1$s and %2$s liked your rating of %3$s</string>
+    <string name="rating_like_3">%1$s, %2$s, and %3$s liked your rating of %4$s</string>
+    <string name="rating_like_4">%1$s, %2$s, and %3$s others liked your rating of %4$s</string>
+
+    <!-- Notification Feed  review_activity_comment -->
+    <string name="review_activity_comment_1">%1$s commented on your review activity of %2$s</string>
+    <string name="review_activity_comment_2">%1$s and %2$s commented on your review activity of %3$s</string>
+    <string name="review_activity_comment_3">%1$s, %2$s, and %3$s commented on your review activity of %4$s</string>
+    <string name="review_activity_comment_4">%1$s, %2$s, and %3$s others commented on your review activity of %4$s</string>
+
+    <!-- Notification Feed  review_activity_like -->
+    <string name="review_activity_like_1">%1$s liked your review activity of %2$s</string>
+    <string name="review_activity_like_2">%1$s and %2$s liked your review activity of %3$s</string>
+    <string name="review_activity_like_3">%1$s, %2$s, and %3$s liked your review activity of %4$s</string>
+    <string name="review_activity_like_4">%1$s, %2$s, and %3$s others liked your review activity of %4$s</string> <!-- Notification Feed  venue_photo_comment -->
+
+    <string name="venue_photo_comment_1">%1$s commented on your photo of %2$s</string>
+    <string name="venue_photo_comment_2">%1$s and %2$s commented on your photo of %3$s</string>
+    <string name="venue_photo_comment_3">%1$s, %2$s, and %3$s commented on your photo of %4$s</string>
+    <string name="venue_photo_comment_4">%1$s, %2$s, and %3$s others commented on your photo of %4$s</string>
+
+    <!-- Notification Feed  venue_update_comment -->
+    <string name="venue_update_comment_1">%1$s commented on the information you updated for %2$s</string>
+    <string name="venue_update_comment_2">%1$s and %2$s commented on the information you updated for  %3$s</string>
+    <string name="venue_update_comment_3">%1$s, %2$s, and %3$s commented on the information you updated for  %4$s</string>
+    <string name="venue_update_comment_4">%1$s, %2$s, and %3$s others commented on the information you updated for  %4$s</string>
+
+    <!-- Notification Feed  venue_update_like -->
+    <string name="venue_update_like_1">%1$s liked the information you updated for %2$s</string>
+    <string name="venue_update_like_2">%1$s and %2$s liked the information you updated for %3$s</string>
+    <string name="venue_update_like_3">%1$s, %2$s, and %3$s liked the information you updated for %4$s</string>
+    <string name="venue_update_like_4">%1$s, %2$s, and %3$s others liked the information you updated for %4$s</string>
+
+    <!-- Notification Feed  venue_share_comment -->
+    <string name="venue_share_comment_1">%1$s commented on your shared venue (%2$s)</string>
+    <string name="venue_share_comment_2">%1$s and %2$s commented on your shared venue (%3$s)</string>
+    <string name="venue_share_comment_3">%1$s, %2$s, and %3$s commented on your shared venue (%4$s)</string>
+    <string name="venue_share_comment_4">%1$s, %2$s, and %3$s others commented on your shared venue (%4$s)</string>
+
+    <!-- Notification Feed  venue_share_like -->
+    <string name="venue_share_like_1">"%1$s" liked your shared venue (%2$s)</string>
+    <string name="venue_share_like_2">%1$s and %2$s liked your shared venue (%3$s)</string>
+    <string name="venue_share_like_3">%1$s, %2$s, and %3$s liked your shared venue (%4$s)</string>
+    <string name="venue_share_like_4">%1$s, %2$s, and %3$s others liked your shared venue (%4$s)</string>
+
+    <!-- Notification Feed  friend_pay_comment -->
+    <string name="friend_pay_comment_1">%1$s commented on your Money Transfer with %2$s</string>
+    <string name="friend_pay_comment_2">%1$s and %2$s commented on your Money Transfer with %3$s</string>
+    <string name="friend_pay_comment_3">%1$s, %2$s, and %3$s commented on your Money Transfer with %4$s</string>
+    <string name="friend_pay_comment_4">%1$s, %2$s, and %3$s others commented on your Money Transfer with %4$s</string>
+
+    <!-- Notification Feed  checkin_comment -->
+    <string name="checkin_comment_1">%1$s commented on your check-in at %2$s</string>
+    <string name="checkin_comment_2">%1$s and %2$s commented on your check-in at %3$s</string>
+    <string name="checkin_comment_3">%1$s, %2$s, and %3$s commented on your check-in at %4$s</string>
+    <string name="checkin_comment_4">%1$s, %2$s, and %3$s others commented on your check-in at %4$s</string>
+
+    <!-- Notification Feed  checkin_like -->
+    <string name="checkin_like_1">%1$s liked your check-in at %2$s</string>
+    <string name="checkin_like_2">%1$s and %2$s liked your check-in at %3$s</string>
+    <string name="checkin_like_3">%1$s, %2$s, and %3$s liked your check-in at %4$s</string>
+    <string name="checkin_like_4">%1$s, %2$s, and %3$s others liked your check-in at %4$s</string>
+
+    <!-- Notification Feed  profile_picture_comment -->
+    <string name="profile_picture_comment_1">%1$s commented on your Profile Picture Update</string>
+    <string name="profile_picture_comment_2">%1$s and %2$s commented on your Profile Picture Update</string>
+    <string name="profile_picture_comment_3">%1$s, %2$s, and %3$s commented on your Profile Picture Update</string>
+    <string name="profile_picture_comment_4">%1$s, %2$s, and %3$s others commented on your Profile Picture Update</string>
+
+    <!-- Notification Feed  profile_picture_like -->
+    <string name="profile_picture_like_1">%1$s liked your Profile Picture Update</string>
+    <string name="profile_picture_like_2">%1$s and %2$s liked your Profile Picture Update</string>
+    <string name="profile_picture_like_3">%1$s, %2$s, and %3$s liked your Profile Picture Update</string>
+    <string name="profile_picture_like_4">%1$s, %2$s, and %3$s others liked your Profile Picture Update</string>
+
+    <!-- Notification Feed  profile_bio_comment -->
+    <string name="profile_bio_comment_1">%1$s commented on your Bio Update</string>
+    <string name="profile_bio_comment_2">%1$s and %2$s commented on your Bio Update</string>
+    <string name="profile_bio_comment_3">%1$s, %2$s, and %3$s commented on your Bio Update</string>
+    <string name="profile_bio_comment_4">%1$s, %2$s, and %3$s others commented on your Bio Update</string>
+
+    <!-- Notification Feed  profile_bio_like -->
+    <string name="profile_bio_like_1">%1$s liked your Bio Update</string>
+    <string name="profile_bio_like_2">%1$s and %2$s liked your Bio Update</string>
+    <string name="profile_bio_like_3">%1$s, %2$s, and %3$s liked your Bio Update</string>
+    <string name="profile_bio_like_4">%1$s, %2$s, and %3$s others liked your Bio Update</string>
+
+    <!-- Photo Crop -->
+    <string name="f_pc_title">Tapped Image</string>
+
+    <!-- Reservation -->
+    <string name="mr_title">Make a Reservation</string>
+    <string name="mr_reservation">Reservation</string>
+    <string name="mr_details">Reservation Details</string>
+    <string name="mr_time">Time</string>
+    <string name="mr_date">Date</string>
+    <string name="mr_powered_by">Reservations Powered By</string>
+    <string name="mr_party_size">Party Size</string>
+    <string name="mr_find_table">Find a Table</string>
+    <string name="mr_reservation_confirmation">Reservation Confirmation</string>
+    <string name="mr_confirm_reservation">Confirm Reservation</string>
+    <string name="mr_confirm_reservation_message">Confirm your reservation on %1$s at %2$s</string>
+    <string name="mr_special_request">Special Requests</string>
+    <string name="mr_date_and_time">Reservation Date &amp; Time</string>
+    <string name="mr_booked_with">Booked With</string>
+    <string name="mr_open_table">Open Table</string>
+    <string name="mr_cancel_reservation">Cancel Reservation</string>
+    <string name="mr_my_reservation">My Reservations</string>
+    <string name="mr_no_reservation">You have no reservations\nat this time.</string>
+    <string name="mr_view_reservation">View Reservation</string>
+
+    <!-- Credits -->
+    <string name="credits_powered_by">Powered by</string>
+    <string name="credits_message">Program software provided by Urban FT, Inc.</string>
+    <string name="credits_copyright">Copyright \u00A9 2018 UrbanFT. All rights reserved.</string>
+
+    <!-- More -->
+    <string name="more_upcoming_reservations">Upcoming Reservations</string>
+    <string name="more_pending_tips">Pending Tips</string>
+    <string name="more_manage_auto_checkins">Manage Auto Check-ins</string>
+    <string name="more_venue_alerts">Venue Alerts</string>
+    <string name="more_deal_alerts">Deal Alerts</string>
+    <string name="more_upgrade_account">Upgrade Account</string>
+
+    <!-- Deal Share -->
+    <string name="share_deal_comment_hint">Comment here...</string>
+    <string name="share_text">Share</string>
+
+    <!-- Addtional Venue Information -->
+    <string name="add_venue_info_autocheckin">Auto Check In</string>
+    <string name="add_venue_info_autocheckin_subtitle">Would you like to be checked in to this venue with every purchase?</string>
+    <string name="add_venue_info_checkinfb">Check-in on Facebook</string>
+    <string name="add_venue_info_checkinfs">Check-in on Foursquare</string>
+    <string name="add_venue_info_checkinsb">Check-in on %1$s</string>
+
+    <!-- Get Card -->
+    <string name="gc_basic_details">Basic Details</string>
+    <string name="gc_details_change_message">We have already gathered some of the information we need from your initial sign-up to our
+        system.Please change anything that is not accurate.</string>
+    <string name="gc_permanent_residence">Permanent Residence</string>
+    <string name="gc_account_verification">Account Verification</string>
+    <string name="gc_account_verification_message">We use your SSN to verify your identity &amp; determine your eligibility.We do not perform a credit check.</string>
+    <string name="gc_ship_to_different_address">Ship to a different address</string>
+    <string name="gc_last_four_digit">Last 4 Digits of your SSN</string>
+    <string name="gc_patriot_act">Patriot Act</string>
+    <string name="gc_patriot_act_message">The USA PATRIOT Act is a federal law that requires all financial institutions to obtain, verify
+        and record information that indentifies each person who opens a card account.</string>
+    <string name="gc_patriot_act_item">I understand the Patriot Act requirement</string>
+    <string name="gc_membersip_fee">Membership Fee</string>
+    <string name="gc_membership_fee_message">Your Sitibank Card will cost $2.00 a month.That fee will be removed from your account on the first day of each month.</string>
+    <string name="gc_terms_condition_message">The following are our agreements, feel free to glance over these before checking each of the boxes.</string>
+    <string name="gc_read_and_agree">I have read and agree to the</string>
+    <string name="gc_understand_and_agree">I understand and agree to the</string>
+    <string name="gc_address_1">Address 1</string>
+    <string name="gc_address_2">Address 2</string>
+    <string name="gc_zip">Zip</string>
+    <string name="gc_esign_agreement">eSign Agreement</string>
+
+    <!-- Universal Search -->
+    <string name="uns_transaction_filter">Transaction Filter</string>
+    <string name="uns_activity_filter">Activity Filter</string>
+    <string name="uns_activity_filter_message">Filter your activity result below</string>
+    <string name="uns_activity_type">Activity Type</string>
+    <string name="res_view"></string>
+    <string name="uns_Date">Date</string>
+    <string name="uns_price">Price</string>
+    <string name="uns_to">to</string>
+    <string name="sv_type">Type</string>
+    <string name="sv_filter">Filter</string>
+    <string name="search_filter">Filter</string>
+
+    <!-- Manage Social Accounts -->
+    <string name="msa_title">Social</string>
+    <string name="msa_manage_social_accounts">Manage Social Media Accounts</string>
+    <string name="msa_connect_to_facebook">Connect your account to Facebook</string>
+    <string name="msa_connect_to_twitter">Connect your account to Twitter</string>
+    <string name="msa_connect_to_foursquare">Connect your account to Foursquare</string>
+    <string name="msa_connect_to_google">Connect your account to Google+</string>
+
+    <!-- Additional Info -->
+    <string name="ai_Social">Social</string>
+    <string name="ai_VenueAddedBy">Venue Added By</string>
+    <string name="ai_MostCheckIns">Most Check-ins</string>
+    <string name="ai_FirstReview">First Review</string>
+    <string name="ai_FirstCheckIn">First Check-in</string>
+
+    <!-- Universal Search : Activity People Filter -->
+    <string name="us_filterpeople">Filter People</string>
+    <string name="us_allpeople">All People</string>
+    <string name="us_friendonly">Friends Only</string>
+    <string name="us_nonfriendonly">Non-Friends Only</string>
+
+    <!-- Funding Your Account -->
+    <string name="fya_title">Funding Your Account</string>
+    <string name="fya_funding_instructions">Funding Instructions</string>
+    <string name="fya_funding_message">To load money into your account, please log into your non-%1$s account &amp; add your new
+         %2$s account as an external account under Accounts or Transfers. Use the provided details as needed.</string>
+     <string name="fya_funding_message_second">Provide this account info to your payroll department to set up direct deposit to your Mobile Wallet Plus account.</string>
+    <string name="fya_bank_name">Bank Name</string>
+    <string name="fya_account_number">Account Number</string>
+    <string name="fya_routing_number">Routing Number</string>
+
+    <!-- Reset ATM Pin -->
+    <string name="rap_title">Reset ATM Pin</string>
+    <string name="rap_identity_validation">Identity Validation</string>
+    <string name="rap_enter_mobile_number">Enter Your Mobile Number</string>
+    <string name="rap_identity_validation_message">In order to reset your ATM pin number we will need to verify your indentity.</string>
+    <string name="rap_social_security">Social Security</string>
+    <string name="rap_social_security_message">Please input the last 4 digits of your social security number.</string>
+    <string name="rap_date_of_birth">Date of Birth</string>
+    <string name="rap_date_of_birth_message">Please input your birthday in the following format MM/DD/YY.</string>
+    <string name="rap_enter_new_pin">Enter a new ATM pin.</string>
+    <string name="rap_confirm_your_pin">Please confirm your pin.</string>
+    <string name="rap_congratulation">Congratulations!</string>
+    <string name="rap_congratulation_message">Your ATM Pin has successfully been changed! Please contact us if you have any questions or concerns.
+        Otherwise, enjoy withdrawing money with your fancy new pin number.</string>
+
+    <!-- Twitter SDK Integration -->
+    <string name="twitter_callback">http://www.urbanft.com</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <string name="twitter_oauth_verifier_denied">http://www.urbanft.com/?denied=</string>
+
+
+    <!-- Feed Type -->
+    <string-array name="feed_type_array">
+        <item>New Venue</item>
+        <item>Venue Update</item>
+        <item>Profile</item>
+        <item>Check-In</item>
+        <item>Friend Pay</item>
+        <item>Deal</item>
+    </string-array>
+    <string-array name="venue_update_array">
+        <item>Venue Name</item>
+        <item>Venue Address</item>
+        <item>Venue Timings</item>
+        <item>Venue Photo</item>
+        <item>Venue Website</item>
+        <item>Venue Phone</item>
+        <item>Venue Share</item>
+        <item>Venue Review</item>
+        <item>Venue Rating</item>
+    </string-array>
+    <string-array name="profile_array">
+        <item>Profile Bio</item>
+        <item>Profile Photo</item>
+    </string-array>
+    <string-array name="checkin_array">
+        <item>Checkin Map</item>
+        <item>Checkin Photo</item>
+    </string-array>
+    <string-array name="deal_array">
+        <item>Deal Share</item>
+        <item>Deal Suggested</item>
+    </string-array>
+
+    <!-- Universal Search Type -->
+    <string name="deal_search">Search Deal</string>
+    <string name="VENUE_FILTER">Venue Filter</string>
+    <string name="CANCEL_FILTER">Cancel</string>
+    <string name="FILTER">Filter</string>
+    <string name="DEAL_FILTER">Deal Filter</string>
+    <string name="sv_text_filter_your_venue_search">Filter your venue result below</string>
+    <string name="sv_text_filter_your_deal_search">Filter your deal result below</string>
+    <string name="us_novenuefound">No Venue Found</string>
+    <string name="us_nodealfound">No Deal Found</string>
+    <string name="us_notransactionfound">No Transaction Found</string>
+    <string name="us_nopeoplefound">No People Found</string>
+    <string name="us_noactivityfound">No Activity Found</string>
+
+    <!-- Conifrm Venue LocationAdd Venue Location -->
+    <string name="cvl_confirmlocation">Confirm Location</string>
+    <string name="tip_detail_tiphelpful_message">Did you find this Tip useful?</string>
+
+    <!-- Verify Device -->
+    <string name="verify_device_title">Verify Your Device</string>
+    <string name="verify_device_verify">Verify</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="verify_device_email_not_received">Didn\'t receive any email?</string>
+    <string name="verify_device_update_email">Update Your Email Address</string>
+    <string name="verify_device_message">We don\'t recognize this mobile device.</string>
+    <string name="verify_device_message_two">You should receive an email shortly with a verification code included.</string>
+    <string name="app_overflow">app_overflow</string>
+
+    <!-- Upgrade Account -->
+    <string name="upgrade_text_plus">"PLUS"</string>
+    <string name="upgrade_your_account">Upgrade Your Account!</string>
+    <string name="upgrade_congratulations">Congratulations!</string>
+    <string name="upgrade_oops">Oops!</string>
+    <string name="upgrade_btn_text_upgrade">Upgrade Now</string>
+    <string name="upgrade_btn_go_to_feed">Return to Feed</string>
+    <string name="upgrade_btn_set_up_direct">Set up Direct Deposit</string>
+    <string name="upgrade_no_thanks"><u>No, Thanks</u></string>
+    <string name="upgrade_go_to_home"><u>Go to Home</u></string>
+    <string name="upgrade_btn_text_try_again">Try Again</string>
+    <string name="upgrade_cancel_registration"><u>Cancel Upgrade</u></string>
+    <string name="upgrade_atm_messaging">Get cash using your <b>FREE</b> %1s and find the nearest ATM with the app.\n\nUpgrade to a Plus Account for <b>FREE</b> to get your card and access ATMs nationwide.</string>
+    <string name="upgrade_mobile_check_deposite">\n\nConveniently deposit your checks anytime, from anywhere using your mobile phone.\n\n Upgrade to a plus Account for <b>FREE</b> to conveniently deposit your checks anytime.</string>
+    <string name="upgrade_local_bank_card"><b>With a %1$s card you can...</b>\n\n</string>
+    <string name="upgrade_local_bank_card_point_a">Shop online or pay anywhere Mastercard is accepted\n</string>
+    <string name="upgrade_local_bank_card_point_b">Withdraw cash at ATMs\n</string>
+    <string name="upgrade_local_bank_card_point_c">and more!\n\n</string>
+    <string name="upgrade_local_bank_card_point_d">Upgrade to a Plus Account for <b>FREE</b> to receive your personalized prepaid debit card.</string>
+    <string name="upgrade_pay">Avoid late fees and conveniently pay thousands of billers, like utilities and cable companies, right from the app.\n\nRecharge your prepaid mobile phone right from the app.\n\nUpgrade to a plus Account for <b>FREE</b> to easily pay your bills.</string>
+    <string name="upgrade_account_upgrade_confirmation">You have successfully created a <b>Plus Account!</b>\n\nLoad money into your account now to start spending:\n\n</string>
+    <string name="upgrade_gift_cards">Instantly send gift cards from Amazon and other popular stores to your friends from the app.\n\nUpgrade to a <b>Plus Account</b> and instantly send an eGift card right from the app.</string>
+    <string name="upgrade_friend_pay">Easily send &amp; request money from your family &amp; friends.\n\nUpgrade to a Plus Account and exchange money instantly with your friends.</string>
+    <string name="upgrade_account_upgrade_confirmation_a">Direct deposit\n</string>
+    <string name="upgrade_account_upgrade_confirmation_b">Mobile check deposit\n</string>
+    <string name="upgrade_account_upgrade_confirmation_c">Transfer from another account \n</string>
+    <string name="upgrade_account_upgrade_confirmation_d">Cash Load</string>
+    <string name="upgrade_account_fail">Unfortunately, the information submitted could not be verified. Please ensure your full name, address, DOB, and SSN are correct and try again. If the problem persists, please continue to enjoy your Basic Account.\n\nBasic Account get access to social features, such as Deal Discovery, Ratings &amp; Reviews, and the Social Feed.</string>
+    <!-- Upgrade Validation steps -->
+    <!-- Step 1 -->
+    <string name="upgrade_validation_cancel"><u>Cancel</u></string>
+    <string name="upgrade_validation_next">Next</string>
+    <string name="upgrade_validation_phone_number_title">Phone Number</string>
+    <string name="upgrade_validation_phone_number_description">Please verify that the below phone number is correct.</string>
+    <string name="upgrade_validation_hint_phone_number">Phone Number</string>
+    <!-- Step 2 -->
+    <string name="upgrade_validation_sms_code_title">Enter Your Code</string>
+    <string name="upgrade_validation_sms_code_description">We texted you a code to verify your number. Enter it below. </string>
+    <string name="upgrade_validation_hint_sms_code">SMS Code</string>
+    <string name="upgrade_validation_sms_code_resend"><u>Didn\'t receive a code? <b>Resend.</b></u></string>
+    <!-- Step 3 -->
+    <string name="upgrade_verify_account_info_title">Verify Account Info</string>
+    <string name="upgrade_verify_account_info_description">Please verify your account information.</string>
+    <string name="upgrade_verify_account_info_hint_first_name">First Name</string>
+    <string name="upgrade_verify_account_info_hint_last_name">Last Name</string>
+    <string name="upgrade_verify_account_info_hint_optional_name">Secondary Last Name <i>(optional)</i></string>
+    <string name="upgrade_verify_account_info_hint_dob">Date of Birth</string>
+
+    <!-- Step 4 -->
+    <string name="upgrade_verify_mailing_address_title">Verify Mailing Address</string>
+    <string name="upgrade_verify_mailing_address_description">Please verify your mailing address.</string>
+    <string name="upgrade_verify_mailing_address_hint_address_line1">Address Line 1</string>
+    <string name="upgrade_verify_mailing_address_hint_address_line2">Address Line 2 <i>(optional)</i></string>
+    <string name="upgrade_verify_mailing_address_hint_city">City</string>
+    <string name="upgrade_verify_mailing_address_hint_state">State</string>
+    <string name="upgrade_verify_mailing_address_hint_zip">Zip Code</string>
+
+    <!-- Step 5 -->
+    <string name="upgrade_verify_ssn_title">Social Security Number</string>
+    <string name="upgrade_verify_ssn_description">Enter your Social Security Number.</string>
+    <string name="upgrade_verify_ssn_hint">000 - 00 - 0000</string>
+    <string name="upgrade_verify_ssn_terms_and_condition">     I have read and agreed to the <u><b>Terms &amp; Conditions</b></u></string>
+
+    <!-- SSN Help Dialog -->
+    <string name="help_ssn_title"><b>Important Information About Account Opening</b></string>
+    <string name="help_ssn_description">To help the government fight the funding of terrorism and money laundering activities, federal law requires all financial institutions to obtain, verify and record information that identifies each person who opens an Account. What this means for you: when you open an Account, we will ask for your name, address, date of birth, social security number and other information that will allow us to identify you. We may also ask to see a copy of your driver\'s license or other identifying documents. The information gathered will not be used to run a credit check.</string>
+    <string name="help_ssn_button_text">CLOSE</string>
+
+    <!-- Countries-->
+    <string-array name="country">
+        <item >India</item>
+        <item>United States</item>
+        <item>Canada</item>
+        <item>Australia</item>
+        <item>United Kingdom</item>
+        <item>Philippines</item>
+        <item >Japan</item>
+        <item>Italy</item>
+        <item>Germany</item>
+        <item>Russia</item>
+        <item>Malaysia</item>
+        <item>France</item>
+        <item>Sweden</item>
+        <item>New Zealand</item>
+        <item>Singapore</item>
+    </string-array>
+
+    <!--Choose Your Account-->
+    <string name="program_name_message">The %1s is issued by Sunrise Banks N.A., Member FDIC, pursuant to a license from MasterCard International Incorporated. MasterCard is a registered trademark of MasterCard International Incorporated. Use of this card constitutes acceptance of the terms and conditions stated in the Cardholder Agreement.</string>
+
+    <!--Login-->
+    <string name="login_ttl">Login</string>
+    <string name="verify_device_ttl">Verify Your Device</string>
+
+    <string name="verify_device_text">Choose to receive your device verification code by SMS message or email.</string>
+    <string name="verify_device_2_text">Please enter the device verification code sent to you below.</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+    <string name="dont_have_acc_text">Don\'t have an account?</string>
+    <string name="sign_up_text">Sign up</string>
+
+    <!--Registration-->
+    <string name="choose_your_acc_ttl">Choose Your Account</string>
+    <string name="create_login_ttl">Create Your Login</string>
+    <string name="code_verification_ttl">Code Verification</string>
+    <string name="complete_profile_ttl">Complete Your Profile</string>
+    <string name="congratulation_ttl">Congratulations!</string>
+    <string name="personal_info_ttl">Personal Info</string>
+    <string name="primary_address_ttl">Permanent Address</string>
+    <string name="ssn_ttl">SSN</string>
+    <string name="create_login_text">Create your login information. We will verify your email and phone number* on the next screen.</string>
+    <string name="code_verification_text">We sent a code to the email address and phone number you provided. Enter the codes below.</string>
+    <string name="complete_profile_text">Tell us about yourself! The information you provide will create your personal profile.</string>
+    <string name="personal_info_sub_text">Save time and scan your ID instead</string>
+    <string name="primary_address_text">Provide the address found on a government issued ID. Your card will be sent to this address.</string>
+    <string name="ssn_text">Enter your Social Security Number below.</string>
+    <string name="ssn_message_1">Important information for opening a card account: </string>
+    <string name="ssn_message_2"> To help federal government fight the funding of terrorism and money laundering activities, the USA PATRIOT Act requires all financial institutions and their third parties to obtain, verify and record information that identifies each person who opens a card account. What this means for you:  When you open a card account, we will ask for your name, address, date of birth and other information that will allow us to identify you. We may also ask to see your driver\'s license or other identifying documents.</string>
+    <string name="primary_address_message">We need your current mailing address in order to send you your %1s. Please ensure you enter your correct address to receive your card.</string>
+    <string name="zip_code_message">We need your zip code in order to show you local deals when your device GPS is turned off.</string>
+
+    <string name="select_text">Select</string>
+    <string name="next_text">Next</string>
+    <string name="submit_text">Submit</string>
+    <string name="get_started_text">Get Started</string>
+    <string name="get_basic_account">Get Basic Account</string>
+    <string name="try_again">Try Again</string>
+    <string name="why_need_this_info_text">Why do we need this information?</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Prefer Not to Say</item>
+    </string-array>
+
+    <string name="oops">Oops!</string>
+    <string name="congratulation_text_1">You have successfully created a Basic Account!</string>
+    <string name="congratulation_text_2">With a Basic Account you will have access to the entire Discovery and Social sections to find local hot spots, exclusive deals, and share your experiences with friends and family!</string>
+    <string name="congratulation_text_3">You have successfully enrolled in a Plus Account!</string>
+    <string name="congratulation_text_4">The next step will be to create your access code and customize your profile...Let\'s get started!</string>
+    <string name="congratulation_text_5">We were unable to verify your identity.</string>
+
+    <string name="standard_sms_rates_apply_text">*Standard SMS Carrier Rates May Apply</string>
+    <string name="already_have_acc_text">Already have an account?</string>
+    <string name="resend_code_text_1">Didn\'t receive a code?</string>
+    <string name="resend_code_text_2">Resend Code.</string>
+    <string name="term_n_condition_text_1">I have read and agreed to the</string>
+    <string name="term_n_condition_text_2">Terms &amp; Conditions</string>
+    <string name="term_n_condition_text_3">and</string>
+    <string name="term_n_condition_text_4">Privacy Policy</string>
+    <string name="term_n_condition_text_5">Cardholder Agreement</string>
+    <string name="term_n_condition_text_6">E-Sign Agreement</string>
+
+    <!--ForgotPassword-->
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password_message">Please enter the email and phone number registered to your account.</string>
+    <string name="reset_your_password">Reset Your Password</string>
+    <string name="remember_my_password">I remember my password</string>
+    <string name="reset_code">Reset Code</string>
+    <string name="reset_your_password_message">Please enter the reset code sent to you.</string>
+    <string name="create_new_password">Create New Password</string>
+    <string name="create_new_password_message">Please enter your new password below.</string>
+    <string name="new_password">New Password</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="verification_code_resent">Verification code resent.</string>
+
+    <string name="star_symbol">✱</string>
+    <string name="dot_symbol">•</string>
+    <string name="dash_symbol">&#160;–&#160;</string>
+
+    <!--ImportContactsActivity-->
+    <string name="import_contacts_search_hint">Search Friends from Contact List</string>
+    <string name="import_contacts_on_bank_text">Contacts Found</string>
+    <string name="import_contacts_invite_to_bank_text">Invite Contacts</string>
+
+    <!--MessageDialogFragment-->
+    <string name="message_1_text">Click Log In to leave the registration process and access your account.</string>
+    <string name="back_message">Tap \"Get Started\" to move on to the next screen.</string>
+
+    <!--Empty Screens-->
+    <string name="empty_no_transactions">No transactions.</string>
+    <string name="empty_no_transactions_message">Start using your %1s card and your transactions will appear here.</string>
+    <string name="no_friend">It\'s lonely in here.</string>
+    <string name="no_friend_message">You can only request money once you have connected with your friends.</string>
+    <string name="no_friend_send_message">You can only send money once you have connected with your friends.</string>
+    <string name="no_split_friend_message">You can only split the bill once you have connected with your friends.</string>
+    <string name="no_friend_pay_transaction">No matches found.</string>
+    <string name="no_friend_pay_transaction_message">We could not find a matching Friend Pay transaction. Let\'s try that again.</string>
+    <string name="no_notifications">No notifications.</string>
+    <string name="no_activity">No activity to show.</string>
+    <string name="no_venue">No venue to show.</string>
+    <string name="no_deal">No deal to show.</string>
+    <string name="no_transactions_to_show">No transactions to show.</string>
+    <string name="no_people">No people to show.</string>
+    <string name="no_activity_message">There are no results matching your search for %1s.\nLet\'s try that again.</string>
+    <string name="no_feed_message">This is your %1s Feed. See what your friends are up to or share your own activity. Let\'s add some friends today and start engaging!</string>
+    <string name="no_user_feed">What are you waiting for?</string>
+    <string name="no_user_feed_message">Start checking-in, leaving reviews, adding photos and making friends to populate your personal activity feed.</string>
+    <string name="no_other_feed">It\'s like a desert in here!</string>
+    <string name="no_other_feed_message">%1s has no activity to show...yet.</string>
+    <string name="checkins_appear_here">Check-ins will appear here.</string>
+    <string name="photos_appear_here">Photos will appear here.</string>
+    <string name="tips_appear_here">Tips will appear here.</string>
+    <string name="pending_approval_appear_here">Pending approvals will appear here.</string>
+    <string name="reviews_appear_here">Reviews will appear here.</string>
+    <string name="location_settings_off">Your location settings are turned off.</string>
+    <string name="location_settings_message">Please visit your phone settings and allow %1s access your location.</string>
+    <string name="no_data_connection">No data connection.</string>
+    <string name="retry">Retry</string>
+    <string name="no_photo_to_show">No photos to show.</string>
+    <string name="no_photo_to_show_message">You currently have no photos in your gallery. Click the camera icon below to take your first picture!</string>
+    <string name="no_photo_access">Please allow access to your photos.</string>
+    <string name="no_photo_access_message">This allows %1s to share photos from your library and save photos to your camera roll.</string>
+    <string name="enable_photo_access">Enable Photo Access</string>
+    <string name="no_venue_found">No venues found.</string>
+    <string name="no_friend_found">No friends found.</string>
+    <string name="no_deals_found">No deals found.</string>
+    <string name="no_venue_found_message">Please try your search again using different keywords or search filters.</string>
+    <string name="no_friend_found_message">Please try your search again using different keywords.</string>
+    <string name="no_account_added">No Accounts linked.</string>
+    <string name="no_account_added_message">Add and manage external financial accounts or upgrade to a Plus account to receive your %1s.</string>
+    <string name="no_friends">It\’s lonely in here.</string>
+    <string name="no_friends_message">Your friends will appear here.\nStart adding them to create a more engaging experience.</string>
+    <string name="suggested_friends_message">Suggested friends will appear here.\nStart adding them to create a more engaging experience.</string>
+    <string name="no_contact_friends_message">Friends that you add will appear here.</string>
+
+    <!--Tutorial texts-->
+    <string name="check_in_tutorial_text">\"Check-in\" to write tips &amp;\n reviews, share photos, or tag\n friends in your Feed posts.</string>
+    <string name="split_bill_tutorial_text">Now you can guarantee everyone\n will pay their fair share of the bill.</string>
+    <string name="split_bill_hand_swipe_tutorial_text">Swipe left on the transaction card.</string>
+    <string name="user_profile_tutorial_text">Use \"Settings\" to change your \nprofile picture and update your \npersonal bio.</string>
+
+    <!--User Training Texts-->
+    <string name="training_money_description_text">Use your %s to send money to friends, pay bills and track your spending.</string>
+    <string name="discovery">Discovery</string>
+    <string name="training_discovery_description_text">Access detailed information on the coolest venues and hottest deals you are most interested in.</string>
+    <string name="split_the_bill">Split the bill</string>
+    <string name="share_photos">Share photos, express your inner food critic, and stay in the know with your friends on the Social Feed.</string>
+    <string name="friend_pay_text">Friend pay</string>
+    <string name="training_friend_pay_description_text">Easily request money from friends after a night out, or send them a few bucks for coffee.</string>
+    <string name="bill_pay_text">Bill pay</string>
+    <string name="training_bill_pay_description_text">Conveniently pay thousands of billers, like utilities and cable companies.</string>
+
+    <string name="more_legal">Legal</string>
+    <string name="message_ingo_dialog">SUNRISE BANKS does not endorse or guarantee the products, information, or recommendations provided in linked sites and SUNRISE BANKS is not liable for any failure of products or services advertised on those sites.</string>
+    <string name="send_request_money_warning_msg">Funds will be taken from your %1s</string>
+    <string name="send_request_money_warning_msg_with_new_line">Funds will be taken from your\n%1s</string>
+    <string name="your_card">Your card</string>
+    <string name="your_account">Your account</string>
+    <string name="annuity_payout_remaining">Remaining Payout Amount</string>
+    <string name="annuity_payout_amount">Your next %1$s payout will be on</string>
+    <string name="annuity_initial_lumpsum">Initial Lump Sum</string>
+    <string name="total_plan_payouts">Total Plan Payouts</string>
+    <string name="paid_to_date">Paid Out to Date</string>
+    <string name="yearlywise_payout">Year %1$d Payout Progress</string>
+    <string name="lbl_cashback_earned">Total cash-back earned to date</string>
+    <string name="f_cashback_earned_current">Earned this cycle</string>
+    <string name="f_cashback_days_remaining">This cycle ends on %1$s</string>
+    <string name="f_cashback_earned_previous">Earned previous cycle</string>
+    <string name="f_cashback_due_date">To be paid on %1$s</string>
+    <string name="payout_rate_lbl">Your rate for Year %1$d payouts</string>
+    <string name="cashback_earned">Cash-Back Earned</string>
+    <string name="cashback_goal">Cash-Back Goal</string>
+    <string name="no_cashback_earned">No Earnings Yet</string>
+    <string name="day">day</string>
+    <string name="days">days</string>
+    <string name="earning_now">Earning Now</string>
+    <string name="activated">Activated</string>
+    <string name="activates_on">Activates %1$s</string>
+    <string name="payout_rate_date_lbl">Year %1$d rate available after %2$s payout</string>
+    <string name="cash_back_rewards">Cash-Back Rewards</string>
+    <string name="no_payouts">This account has received all payouts</string>
+
+</resources>

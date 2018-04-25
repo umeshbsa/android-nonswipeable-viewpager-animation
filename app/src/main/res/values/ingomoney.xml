@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Configuration Details -->
+
+
+    <!-- Errors -->
+    <string name="sso_token_error_title">Unable to get SSO Token</string>
+    <string name="ingo_is_down_title">Ingo is Down</string>
+    <string name="ingo_is_down_message">Ingo is Down for maintenance, please try again later!</string>
+    <string name="bad_device_title">Incompatible Device</string>
+    <string name="bad_device_message">We\'re sorry, but your device is incompatible with your remote check deposit services.</string>
+    <string name="dismiss_action">Dismiss</string>
+
+    <!-- Load a Check -->
+
+    <!-- Load a Check Result -->
+
+    <!-- History -->
+
+</resources>
