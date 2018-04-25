@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.app.movingpoc.R;
-import com.app.movingpoc.anim.TrainingViewAnimations;
+import com.app.movingpoc.utils.AnimationUtils;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,10 +19,10 @@ public class Outer6Fragment extends BaseFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.f_training_friend_pay, container, false);
+        View view = inflater.inflate(R.layout.fragment_outer_6, container, false);
         mTitle = (TextView) view.findViewById(R.id.title);
         mSubTitle = (TextView) view.findViewById(R.id.subtitle);
-        setExitDuration(TrainingViewAnimations.TO_LEFT_DURATION + 400);
+        setExitDuration(AnimationUtils.TO_LEFT_DURATION + 400);
         return view;
     }
 
@@ -43,22 +43,22 @@ public class Outer6Fragment extends BaseFragment {
     @Override
     public void startEnterAnimation() {
         if (isRightAnimation) {
-            mTitle.startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(TrainingViewAnimations.OFFSET_2));
-            mSubTitle.startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(TrainingViewAnimations.OFFSET_0));
+            mTitle.startAnimation(AnimationUtils.rightToLeftEnterAnimation(AnimationUtils.OFFSET_2));
+            mSubTitle.startAnimation(AnimationUtils.rightToLeftEnterAnimation(AnimationUtils.OFFSET_0));
         } else {
-            mTitle.startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(TrainingViewAnimations.OFFSET_2));
-            mSubTitle.startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(TrainingViewAnimations.OFFSET_0));
+            mTitle.startAnimation(AnimationUtils.leftToRightEnterAnimation(AnimationUtils.OFFSET_2));
+            mSubTitle.startAnimation(AnimationUtils.leftToRightEnterAnimation(AnimationUtils.OFFSET_0));
         }
     }
 
     @Override
     public void startExitAnimation(boolean isRightAnimation) {
         if (isRightAnimation) {
-            mTitle.startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(TrainingViewAnimations.OFFSET_2));
-            mSubTitle.startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(TrainingViewAnimations.OFFSET_0));
+            mTitle.startAnimation(AnimationUtils.rightToLeftExitAnimation(AnimationUtils.OFFSET_2));
+            mSubTitle.startAnimation(AnimationUtils.rightToLeftExitAnimation(AnimationUtils.OFFSET_0));
         } else {
-            mTitle.startAnimation(TrainingViewAnimations.leftToRightExitAnimation(TrainingViewAnimations.OFFSET_2));
-            mSubTitle.startAnimation(TrainingViewAnimations.leftToRightExitAnimation(TrainingViewAnimations.OFFSET_0));
+            mTitle.startAnimation(AnimationUtils.leftToRightExitAnimation(AnimationUtils.OFFSET_2));
+            mSubTitle.startAnimation(AnimationUtils.leftToRightExitAnimation(AnimationUtils.OFFSET_0));
         }
     }
 

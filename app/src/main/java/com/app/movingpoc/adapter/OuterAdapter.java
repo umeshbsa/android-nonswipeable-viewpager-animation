@@ -12,12 +12,12 @@ import com.app.movingpoc.fragment.Outer4Fragment;
 import com.app.movingpoc.fragment.Outer5Fragment;
 import com.app.movingpoc.fragment.Outer6Fragment;
 
-public class TrainingPagerAdapter extends FragmentPagerAdapter {
+public class OuterAdapter extends FragmentPagerAdapter {
 
     private int noOfPages = 4;
     private BaseFragment[] mFragmentArray;
 
-    public TrainingPagerAdapter(FragmentManager fm) {
+    public OuterAdapter(FragmentManager fm) {
         super(fm);
     }
 

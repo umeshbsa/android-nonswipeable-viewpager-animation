@@ -6,13 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.app.movingpoc.anim.TrainingViewAnimations;
+import com.app.movingpoc.utils.AnimationUtils;
 
 
 public abstract class BaseFragment extends Fragment {
 
     public static boolean isRightAnimation = true;
-    private int mExitDuration = TrainingViewAnimations.TO_LEFT_DURATION;
+    private int mExitDuration = AnimationUtils.TO_LEFT_DURATION;
     protected boolean isEnterAnimationStarted;
 
     @Override

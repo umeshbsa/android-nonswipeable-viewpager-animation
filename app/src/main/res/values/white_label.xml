@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <!--<string name="secret_key">cb5d970b7fe811e4b3b7002354e43051</string>-->
-    <string name="preference_file_key">urbanft_prefs</string>
-    <string name="preference_file_session_key">urbanft_session_prefs</string>
-    <string name="preference_money_access_code_file_key">urbanft_money_access_code_prefs</string>
-</resources>

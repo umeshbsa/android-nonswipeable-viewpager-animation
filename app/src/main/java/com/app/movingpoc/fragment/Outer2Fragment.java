@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.app.movingpoc.R;
-import com.app.movingpoc.anim.TrainingViewAnimations;
+import com.app.movingpoc.utils.AnimationUtils;
 
 
 /**
@@ -23,12 +23,12 @@ public class Outer2Fragment extends BaseFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.f_training_2, container, false);
+        View view = inflater.inflate(R.layout.fragment_outer_2, container, false);
         mTitle = (TextView) view.findViewById(R.id.title);
         mSubTitle = (TextView) view.findViewById(R.id.subtitle);
         mLayoutTop = (LinearLayout) view.findViewById(R.id.layoutTop);
         mLayoutTop.setVisibility(View.VISIBLE);
-        setExitDuration(TrainingViewAnimations.TO_LEFT_DURATION + 200);
+        setExitDuration(AnimationUtils.TO_LEFT_DURATION + 200);
         mSubTitle.setText(getString(R.string.training_money_description_text, "Bank Card"));
         return view;
     }
@@ -47,11 +47,11 @@ public class Outer2Fragment extends BaseFragment {
             return;
         }
         if (isRightAnimation) {
-            mTitle.startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(TrainingViewAnimations.OFFSET_2));
-            mSubTitle.startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(TrainingViewAnimations.OFFSET_0));
+            mTitle.startAnimation(AnimationUtils.rightToLeftEnterAnimation(AnimationUtils.OFFSET_2));
+            mSubTitle.startAnimation(AnimationUtils.rightToLeftEnterAnimation(AnimationUtils.OFFSET_0));
         } else {
-            mTitle.startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(TrainingViewAnimations.OFFSET_2));
-            mSubTitle.startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(TrainingViewAnimations.OFFSET_0));
+            mTitle.startAnimation(AnimationUtils.leftToRightEnterAnimation(AnimationUtils.OFFSET_2));
+            mSubTitle.startAnimation(AnimationUtils.leftToRightEnterAnimation(AnimationUtils.OFFSET_0));
         }
     }
 
@@ -61,11 +61,11 @@ public class Outer2Fragment extends BaseFragment {
             return;
         }
         if (isRightAnimation) {
-            mTitle.startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(TrainingViewAnimations.OFFSET_2));
-            mSubTitle.startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(TrainingViewAnimations.OFFSET_0));
+            mTitle.startAnimation(AnimationUtils.rightToLeftExitAnimation(AnimationUtils.OFFSET_2));
+            mSubTitle.startAnimation(AnimationUtils.rightToLeftExitAnimation(AnimationUtils.OFFSET_0));
         } else {
-            mTitle.startAnimation(TrainingViewAnimations.leftToRightExitAnimation(TrainingViewAnimations.OFFSET_2));
-            mSubTitle.startAnimation(TrainingViewAnimations.leftToRightExitAnimation(TrainingViewAnimations.OFFSET_0));
+            mTitle.startAnimation(AnimationUtils.leftToRightExitAnimation(AnimationUtils.OFFSET_2));
+            mSubTitle.startAnimation(AnimationUtils.leftToRightExitAnimation(AnimationUtils.OFFSET_0));
         }
     }
 

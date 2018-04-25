@@ -9,15 +9,15 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.app.movingpoc.R;
-import com.app.movingpoc.anim.TrainingViewAnimations;
+import com.app.movingpoc.utils.AnimationUtils;
 
-import static com.app.movingpoc.anim.TrainingViewAnimations.OFFSET_0;
+import static com.app.movingpoc.utils.AnimationUtils.OFFSET_0;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TrainingInset2Fragment extends BaseFragment {
+public class Inner3Fragment extends BaseFragment {
 
     private RelativeLayout mLayoutTop;
     private ImageView mDealsIcon1, mDealsIcon2;
@@ -26,7 +26,7 @@ public class TrainingInset2Fragment extends BaseFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.f_training_inset_2, container, false);
+        View view = inflater.inflate(R.layout.fragment_inner_3, container, false);
         mLayoutTop = (RelativeLayout) view.findViewById(R.id.layoutTop);
         mDealsIcon1 = (ImageView) view.findViewById(R.id.fragment_inner_two_deals_1);
         mDealsIcon2 = (ImageView) view.findViewById(R.id.fragment_inner_two_deals_2);
@@ -46,17 +46,17 @@ public class TrainingInset2Fragment extends BaseFragment {
         if(!isAdded()){
             return;
         }
-        mDealsIcon1.startAnimation(TrainingViewAnimations.shakeAnimation());
+        mDealsIcon1.startAnimation(AnimationUtils.shakeAnimation());
         mDealsIcon2.postDelayed(new Runnable() {
             @Override
             public void run() {
-                mDealsIcon2.startAnimation(TrainingViewAnimations.shakeAnimation());
+                mDealsIcon2.startAnimation(AnimationUtils.shakeAnimation());
             }
         }, 700);
         if (isRightAnimation)
-            mLayoutTop.startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(TrainingViewAnimations.OFFSET_1));
+            mLayoutTop.startAnimation(AnimationUtils.rightToLeftEnterAnimation(AnimationUtils.OFFSET_1));
         else
-            mLayoutTop.startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(TrainingViewAnimations.OFFSET_1));
+            mLayoutTop.startAnimation(AnimationUtils.leftToRightEnterAnimation(AnimationUtils.OFFSET_1));
     }
 
     @Override
@@ -65,9 +65,9 @@ public class TrainingInset2Fragment extends BaseFragment {
             return;
         }
         if (isRightAnimation)
-            mLayoutTop.startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(OFFSET_0));
+            mLayoutTop.startAnimation(AnimationUtils.rightToLeftExitAnimation(OFFSET_0));
         else
-            mLayoutTop.startAnimation(TrainingViewAnimations.leftToRightExitAnimation(OFFSET_0));
+            mLayoutTop.startAnimation(AnimationUtils.leftToRightExitAnimation(OFFSET_0));
     }
 
 }

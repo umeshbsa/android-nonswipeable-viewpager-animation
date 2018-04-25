@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.app.movingpoc.R;
-import com.app.movingpoc.anim.TrainingViewAnimations;
+import com.app.movingpoc.utils.AnimationUtils;
 
 
 public class Outer1Fragment extends BaseFragment {
@@ -23,7 +23,7 @@ public class Outer1Fragment extends BaseFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.f_training_1, container, false);
+        View view = inflater.inflate(R.layout.fragment_outer_1, container, false);
         mLogo = (ImageView) view.findViewById(R.id.logo);
         mSlogan = (TextView) view.findViewById(R.id.slogan);
         return view;
@@ -51,11 +51,11 @@ public class Outer1Fragment extends BaseFragment {
             return;
         }
         if(isRightAnimation) {
-            mLogo.startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(TrainingViewAnimations.OFFSET_2));
-            mSlogan.startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(TrainingViewAnimations.OFFSET_0));
+            mLogo.startAnimation(AnimationUtils.rightToLeftEnterAnimation(AnimationUtils.OFFSET_2));
+            mSlogan.startAnimation(AnimationUtils.rightToLeftEnterAnimation(AnimationUtils.OFFSET_0));
         } else {
-            mLogo.startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(TrainingViewAnimations.OFFSET_2));
-            mSlogan.startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(TrainingViewAnimations.OFFSET_0));
+            mLogo.startAnimation(AnimationUtils.leftToRightEnterAnimation(AnimationUtils.OFFSET_2));
+            mSlogan.startAnimation(AnimationUtils.leftToRightEnterAnimation(AnimationUtils.OFFSET_0));
         }
     }
 
@@ -65,11 +65,11 @@ public class Outer1Fragment extends BaseFragment {
             return;
         }
         if(isRightAnimation) {
-            mLogo.startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(TrainingViewAnimations.OFFSET_2));
-            mSlogan.startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(TrainingViewAnimations.OFFSET_0));
+            mLogo.startAnimation(AnimationUtils.rightToLeftExitAnimation(AnimationUtils.OFFSET_2));
+            mSlogan.startAnimation(AnimationUtils.rightToLeftExitAnimation(AnimationUtils.OFFSET_0));
         } else {
-            mLogo.startAnimation(TrainingViewAnimations.leftToRightExitAnimation(TrainingViewAnimations.OFFSET_2));
-            mSlogan.startAnimation(TrainingViewAnimations.leftToRightExitAnimation(TrainingViewAnimations.OFFSET_0));
+            mLogo.startAnimation(AnimationUtils.leftToRightExitAnimation(AnimationUtils.OFFSET_2));
+            mSlogan.startAnimation(AnimationUtils.leftToRightExitAnimation(AnimationUtils.OFFSET_0));
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.app.movingpoc.anim;
+package com.app.movingpoc.utils;
 
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.AlphaAnimation;
@@ -8,7 +8,7 @@ import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
 
-public class TrainingViewAnimations {
+public class AnimationUtils {
 
     public static final int TO_LEFT_DURATION = 600;
 

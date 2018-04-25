@@ -9,19 +9,19 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.app.movingpoc.R;
-import com.app.movingpoc.anim.TrainingViewAnimations;
+import com.app.movingpoc.utils.AnimationUtils;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TrainingInset3Fragment extends BaseFragment {
+public class Inner4Fragment extends BaseFragment {
 
     private LinearLayout mRowView, mLayoutTop;
     private ImageView mImageHidden;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.f_training_inset_3, container, false);
+        View view = inflater.inflate(R.layout.fragment_inner_4, container, false);
         mLayoutTop = (LinearLayout) view.findViewById(R.id.layoutTop);
         mRowView = (LinearLayout) view.findViewById(R.id.fragment_inner_three_row_view);
         mImageHidden = (ImageView) view.findViewById(R.id.fragment_inner_three_row_hidden_view);
@@ -42,12 +42,12 @@ public class TrainingInset3Fragment extends BaseFragment {
         if (!isAdded()) {
             return;
         }
-        mRowView.startAnimation(TrainingViewAnimations.rightToLeftViewInnerFragmentThree());
-        mImageHidden.startAnimation(TrainingViewAnimations.rightToLeftHiddenViewInnerFragmentThree());
+        mRowView.startAnimation(AnimationUtils.rightToLeftViewInnerFragmentThree());
+        mImageHidden.startAnimation(AnimationUtils.rightToLeftHiddenViewInnerFragmentThree());
         if (isRightAnimation)
-            mLayoutTop.startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(TrainingViewAnimations.OFFSET_1));
+            mLayoutTop.startAnimation(AnimationUtils.rightToLeftEnterAnimation(AnimationUtils.OFFSET_1));
         else
-            mLayoutTop.startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(TrainingViewAnimations.OFFSET_1));
+            mLayoutTop.startAnimation(AnimationUtils.leftToRightEnterAnimation(AnimationUtils.OFFSET_1));
     }
 
     @Override
@@ -56,9 +56,9 @@ public class TrainingInset3Fragment extends BaseFragment {
             return;
         }
         if (isRightAnimation)
-            mLayoutTop.startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(TrainingViewAnimations.OFFSET_0));
+            mLayoutTop.startAnimation(AnimationUtils.rightToLeftExitAnimation(AnimationUtils.OFFSET_0));
         else
-            mLayoutTop.startAnimation(TrainingViewAnimations.leftToRightExitAnimation(TrainingViewAnimations.OFFSET_0));
+            mLayoutTop.startAnimation(AnimationUtils.leftToRightExitAnimation(AnimationUtils.OFFSET_0));
     }
 
 }

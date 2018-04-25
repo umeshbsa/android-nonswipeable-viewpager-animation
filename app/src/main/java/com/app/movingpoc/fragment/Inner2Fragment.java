@@ -12,12 +12,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.app.movingpoc.R;
-import com.app.movingpoc.anim.TrainingViewAnimations;
+import com.app.movingpoc.utils.AnimationUtils;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TrainingInset1Fragment extends BaseFragment {
+public class Inner2Fragment extends BaseFragment {
 
     private View mViewOverlay;
     private LinearLayout mLayoutTop;
@@ -26,7 +26,7 @@ public class TrainingInset1Fragment extends BaseFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.f_training_inset_1, container, false);
+        View view = inflater.inflate(R.layout.fragment_inner_2, container, false);
         mLayoutTop = (LinearLayout) view.findViewById(R.id.layoutTop);
         mViewOverlay = view.findViewById(R.id.fragment_inner_one_viewChartOverlay);
         mImageView1 = (ImageView) view.findViewById(R.id.imageView_1);
@@ -50,13 +50,13 @@ public class TrainingInset1Fragment extends BaseFragment {
         if(!isAdded()){
             return;
         }
-        mViewOverlay.startAnimation(TrainingViewAnimations.leftToRightOverlayInset());
+        mViewOverlay.startAnimation(AnimationUtils.leftToRightOverlayInset());
         mImageView1.startAnimation(scaleUpWithBounce());
         mImageView2.startAnimation(scaleUpWithBounce());
         if (isRightAnimation)
-            mLayoutTop.startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(TrainingViewAnimations.OFFSET_1));
+            mLayoutTop.startAnimation(AnimationUtils.rightToLeftEnterAnimation(AnimationUtils.OFFSET_1));
         else
-            mLayoutTop.startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(TrainingViewAnimations.OFFSET_1));
+            mLayoutTop.startAnimation(AnimationUtils.leftToRightEnterAnimation(AnimationUtils.OFFSET_1));
     }
 
     @Override
@@ -67,9 +67,9 @@ public class TrainingInset1Fragment extends BaseFragment {
         mImageView1.startAnimation(scaleDown());
         mImageView2.startAnimation(scaleDown());
         if (isRightAnimation)
-            mLayoutTop.startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(TrainingViewAnimations.OFFSET_2));
+            mLayoutTop.startAnimation(AnimationUtils.rightToLeftExitAnimation(AnimationUtils.OFFSET_2));
         else
-            mLayoutTop.startAnimation(TrainingViewAnimations.leftToRightExitAnimation(TrainingViewAnimations.OFFSET_2));
+            mLayoutTop.startAnimation(AnimationUtils.leftToRightExitAnimation(AnimationUtils.OFFSET_2));
     }
 
     private Animation scaleUpWithBounce() {

@@ -5,19 +5,19 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.app.movingpoc.fragment.BaseFragment;
-import com.app.movingpoc.fragment.TrainingIllusionFragment;
-import com.app.movingpoc.fragment.TrainingInset1Fragment;
-import com.app.movingpoc.fragment.TrainingInset2Fragment;
-import com.app.movingpoc.fragment.TrainingInset3Fragment;
-import com.app.movingpoc.fragment.TrainingInsetBillPayFragment;
-import com.app.movingpoc.fragment.TrainingInsetFriendPayFragment;
+import com.app.movingpoc.fragment.Inner1Fragment;
+import com.app.movingpoc.fragment.Inner2Fragment;
+import com.app.movingpoc.fragment.Inner3Fragment;
+import com.app.movingpoc.fragment.Inner4Fragment;
+import com.app.movingpoc.fragment.Inner5Fragment;
+import com.app.movingpoc.fragment.Inner6Fragment;
 
-public class TrainingInsetPagerAdapter extends FragmentPagerAdapter {
+public class InnerAdapter extends FragmentPagerAdapter {
 
     private int noOfPages = 4;
     private BaseFragment[] mFragmentArray;
 
-    public TrainingInsetPagerAdapter(FragmentManager fm) {
+    public InnerAdapter(FragmentManager fm) {
         super(fm);
     }
 
@@ -44,19 +44,19 @@ public class TrainingInsetPagerAdapter extends FragmentPagerAdapter {
         }
 
         mFragmentArray = new BaseFragment[noOfPages];
-        mFragmentArray[0] = new TrainingIllusionFragment();
-        mFragmentArray[1] = new TrainingInset1Fragment();
-        mFragmentArray[2] = new TrainingInset2Fragment();
-        mFragmentArray[3] = new TrainingInset3Fragment();
+        mFragmentArray[0] = new Inner1Fragment();
+        mFragmentArray[1] = new Inner2Fragment();
+        mFragmentArray[2] = new Inner3Fragment();
+        mFragmentArray[3] = new Inner4Fragment();
 
         if (billPayTraining && friendPayTraining) {
-            mFragmentArray[4] = new TrainingInsetBillPayFragment();
-            mFragmentArray[5] = new TrainingInsetFriendPayFragment();
+            mFragmentArray[4] = new Inner5Fragment();
+            mFragmentArray[5] = new Inner6Fragment();
         } else {
             if (billPayTraining)
-                mFragmentArray[4] = new TrainingInsetBillPayFragment();
+                mFragmentArray[4] = new Inner5Fragment();
             else if (friendPayTraining)
-                mFragmentArray[4] = new TrainingInsetFriendPayFragment();
+                mFragmentArray[4] = new Inner6Fragment();
         }
     }
 

@@ -1,4 +1,4 @@
-package com.app.noswipeviewpager.utils;
+package com.app.movingpoc.utils;
 
 import android.content.Context;
 import android.util.TypedValue;

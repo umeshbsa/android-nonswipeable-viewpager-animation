@@ -22,13 +22,13 @@ import android.widget.TextView;
 
 import com.app.movingpoc.utils.AppUtils;
 import com.app.movingpoc.R;
-import com.app.movingpoc.anim.TrainingViewAnimations;
+import com.app.movingpoc.utils.AnimationUtils;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TrainingInsetFriendPayFragment extends BaseFragment {
+public class Inner6Fragment extends BaseFragment {
 
     private View mRootView;
 
@@ -45,7 +45,7 @@ public class TrainingInsetFriendPayFragment extends BaseFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        mRootView = inflater.inflate(R.layout.f_training_inset_friend_pay, container, false);
+        mRootView = inflater.inflate(R.layout.fragment_inner_6, container, false);
         mLayoutTop = (RelativeLayout) mRootView.findViewById(R.id.layoutTop);
         mScreen1Layout = mRootView.findViewById(R.id.screen_1_layout);
         mScreen1Layout.setVisibility(View.VISIBLE);
@@ -72,9 +72,9 @@ public class TrainingInsetFriendPayFragment extends BaseFragment {
     @Override
     public void startEnterAnimation() {
         if (isRightAnimation)
-            mLayoutTop.startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(TrainingViewAnimations.OFFSET_1));
+            mLayoutTop.startAnimation(AnimationUtils.rightToLeftEnterAnimation(AnimationUtils.OFFSET_1));
         else
-            mLayoutTop.startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(TrainingViewAnimations.OFFSET_1));
+            mLayoutTop.startAnimation(AnimationUtils.leftToRightEnterAnimation(AnimationUtils.OFFSET_1));
         animateRowsTowardLeft();
         animateOverlayTranslateView();
 
@@ -108,19 +108,19 @@ public class TrainingInsetFriendPayFragment extends BaseFragment {
     @Override
     public void startExitAnimation(boolean isRightAnimation) {
         if (isRightAnimation) {
-            mImageEnlarged.startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(0));
-            mRootView.findViewById(R.id.horizontal_rule_1).startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(200));
-            mRootView.findViewById(R.id.horizontal_rule_2).startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(200));
-            mRootView.findViewById(R.id.oval_bg).startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(400));
-            mRootView.findViewById(R.id.oval_tick).startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(400));
-            mLayoutTop.startAnimation(TrainingViewAnimations.rightToLeftExitAnimation(450));
+            mImageEnlarged.startAnimation(AnimationUtils.rightToLeftExitAnimation(0));
+            mRootView.findViewById(R.id.horizontal_rule_1).startAnimation(AnimationUtils.rightToLeftExitAnimation(200));
+            mRootView.findViewById(R.id.horizontal_rule_2).startAnimation(AnimationUtils.rightToLeftExitAnimation(200));
+            mRootView.findViewById(R.id.oval_bg).startAnimation(AnimationUtils.rightToLeftExitAnimation(400));
+            mRootView.findViewById(R.id.oval_tick).startAnimation(AnimationUtils.rightToLeftExitAnimation(400));
+            mLayoutTop.startAnimation(AnimationUtils.rightToLeftExitAnimation(450));
         } else {
-            mImageEnlarged.startAnimation(TrainingViewAnimations.leftToRightExitAnimation(0));
-            mRootView.findViewById(R.id.horizontal_rule_1).startAnimation(TrainingViewAnimations.leftToRightExitAnimation(200));
-            mRootView.findViewById(R.id.horizontal_rule_2).startAnimation(TrainingViewAnimations.leftToRightExitAnimation(200));
-            mRootView.findViewById(R.id.oval_bg).startAnimation(TrainingViewAnimations.leftToRightExitAnimation(400));
-            mRootView.findViewById(R.id.oval_tick).startAnimation(TrainingViewAnimations.leftToRightExitAnimation(400));
-            mLayoutTop.startAnimation(TrainingViewAnimations.leftToRightExitAnimation(450));
+            mImageEnlarged.startAnimation(AnimationUtils.leftToRightExitAnimation(0));
+            mRootView.findViewById(R.id.horizontal_rule_1).startAnimation(AnimationUtils.leftToRightExitAnimation(200));
+            mRootView.findViewById(R.id.horizontal_rule_2).startAnimation(AnimationUtils.leftToRightExitAnimation(200));
+            mRootView.findViewById(R.id.oval_bg).startAnimation(AnimationUtils.leftToRightExitAnimation(400));
+            mRootView.findViewById(R.id.oval_tick).startAnimation(AnimationUtils.leftToRightExitAnimation(400));
+            mLayoutTop.startAnimation(AnimationUtils.leftToRightExitAnimation(450));
         }
         isEnterAnimationStarted = false;
     }
@@ -129,35 +129,35 @@ public class TrainingInsetFriendPayFragment extends BaseFragment {
 
     private void animateRowsTowardLeft() {
         if (isRightAnimation) {
-            mRootView.findViewById(R.id.hr_1).startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(OFFSET * 1));
-            mRootView.findViewById(R.id.row_1).startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(OFFSET * 2));
+            mRootView.findViewById(R.id.hr_1).startAnimation(AnimationUtils.rightToLeftEnterAnimation(OFFSET * 1));
+            mRootView.findViewById(R.id.row_1).startAnimation(AnimationUtils.rightToLeftEnterAnimation(OFFSET * 2));
 
-            mRootView.findViewById(R.id.hr_2).startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(OFFSET * 3));
-            mRootView.findViewById(R.id.row_2).startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(OFFSET * 4));
+            mRootView.findViewById(R.id.hr_2).startAnimation(AnimationUtils.rightToLeftEnterAnimation(OFFSET * 3));
+            mRootView.findViewById(R.id.row_2).startAnimation(AnimationUtils.rightToLeftEnterAnimation(OFFSET * 4));
 
-            mRootView.findViewById(R.id.hr_3).startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(OFFSET * 5));
-            mRootView.findViewById(R.id.row_3).startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(OFFSET * 6));
+            mRootView.findViewById(R.id.hr_3).startAnimation(AnimationUtils.rightToLeftEnterAnimation(OFFSET * 5));
+            mRootView.findViewById(R.id.row_3).startAnimation(AnimationUtils.rightToLeftEnterAnimation(OFFSET * 6));
 
-            mRootView.findViewById(R.id.hr_4).startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(OFFSET * 7));
-            mRootView.findViewById(R.id.row_4).startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(OFFSET * 8));
+            mRootView.findViewById(R.id.hr_4).startAnimation(AnimationUtils.rightToLeftEnterAnimation(OFFSET * 7));
+            mRootView.findViewById(R.id.row_4).startAnimation(AnimationUtils.rightToLeftEnterAnimation(OFFSET * 8));
 
-            mRootView.findViewById(R.id.hr_5).startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(OFFSET * 9));
-            mRootView.findViewById(R.id.row_5).startAnimation(TrainingViewAnimations.rightToLeftEnterAnimation(OFFSET * 10));
+            mRootView.findViewById(R.id.hr_5).startAnimation(AnimationUtils.rightToLeftEnterAnimation(OFFSET * 9));
+            mRootView.findViewById(R.id.row_5).startAnimation(AnimationUtils.rightToLeftEnterAnimation(OFFSET * 10));
         } else {
-            mRootView.findViewById(R.id.hr_1).startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(OFFSET * 1));
-            mRootView.findViewById(R.id.row_1).startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(OFFSET * 2));
+            mRootView.findViewById(R.id.hr_1).startAnimation(AnimationUtils.leftToRightEnterAnimation(OFFSET * 1));
+            mRootView.findViewById(R.id.row_1).startAnimation(AnimationUtils.leftToRightEnterAnimation(OFFSET * 2));
 
-            mRootView.findViewById(R.id.hr_2).startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(OFFSET * 3));
-            mRootView.findViewById(R.id.row_2).startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(OFFSET * 4));
+            mRootView.findViewById(R.id.hr_2).startAnimation(AnimationUtils.leftToRightEnterAnimation(OFFSET * 3));
+            mRootView.findViewById(R.id.row_2).startAnimation(AnimationUtils.leftToRightEnterAnimation(OFFSET * 4));
 
-            mRootView.findViewById(R.id.hr_3).startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(OFFSET * 5));
-            mRootView.findViewById(R.id.row_3).startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(OFFSET * 6));
+            mRootView.findViewById(R.id.hr_3).startAnimation(AnimationUtils.leftToRightEnterAnimation(OFFSET * 5));
+            mRootView.findViewById(R.id.row_3).startAnimation(AnimationUtils.leftToRightEnterAnimation(OFFSET * 6));
 
-            mRootView.findViewById(R.id.hr_4).startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(OFFSET * 7));
-            mRootView.findViewById(R.id.row_4).startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(OFFSET * 8));
+            mRootView.findViewById(R.id.hr_4).startAnimation(AnimationUtils.leftToRightEnterAnimation(OFFSET * 7));
+            mRootView.findViewById(R.id.row_4).startAnimation(AnimationUtils.leftToRightEnterAnimation(OFFSET * 8));
 
-            mRootView.findViewById(R.id.hr_5).startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(OFFSET * 9));
-            mRootView.findViewById(R.id.row_5).startAnimation(TrainingViewAnimations.leftToRightEnterAnimation(OFFSET * 10));
+            mRootView.findViewById(R.id.hr_5).startAnimation(AnimationUtils.leftToRightEnterAnimation(OFFSET * 9));
+            mRootView.findViewById(R.id.row_5).startAnimation(AnimationUtils.leftToRightEnterAnimation(OFFSET * 10));
         }
     }
 
@@ -178,7 +178,7 @@ public class TrainingInsetFriendPayFragment extends BaseFragment {
 
         if (i >= 3) {
             final View view = mRootView.findViewById(R.id.overlay_ripple_view);
-            Animation animation = TrainingViewAnimations.rippleAnimation(0);
+            Animation animation = AnimationUtils.rippleAnimation(0);
             animation.setAnimationListener(new Animation.AnimationListener() {
                 @Override
                 public void onAnimationStart(Animation animation) {
@@ -232,7 +232,7 @@ public class TrainingInsetFriendPayFragment extends BaseFragment {
     float[] mEnlargedImageInfoArray = new float[4];
 
     private void animateScreen2() {
-        Animation anim = TrainingViewAnimations.alphaHideAnimation(0);
+        Animation anim = AnimationUtils.alphaHideAnimation(0);
         anim.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
@@ -254,7 +254,7 @@ public class TrainingInsetFriendPayFragment extends BaseFragment {
         mEnlargedImageInfoArray[2] = mImageEnlarged.getWidth();
         mEnlargedImageInfoArray[3] = mImageEnlarged.getHeight();
 
-        mScreen2Layout.startAnimation(TrainingViewAnimations.alphaVisibleAnimation(0));
+        mScreen2Layout.startAnimation(AnimationUtils.alphaVisibleAnimation(0));
         mScreen2Layout.setVisibility(View.VISIBLE);
 
         animateToEnlargeImage();
@@ -262,16 +262,16 @@ public class TrainingInsetFriendPayFragment extends BaseFragment {
         if (mRootView != null) {
             View rule1 = mRootView.findViewById(R.id.horizontal_rule_1);
             rule1.setVisibility(View.VISIBLE);
-            rule1.startAnimation(TrainingViewAnimations.alphaVisibleAnimation(OFFSET * 3));
+            rule1.startAnimation(AnimationUtils.alphaVisibleAnimation(OFFSET * 3));
 
             View rule2 = mRootView.findViewById(R.id.horizontal_rule_2);
             rule2.setVisibility(View.VISIBLE);
-            rule2.startAnimation(TrainingViewAnimations.alphaVisibleAnimation((int) (OFFSET * 3.5)));
+            rule2.startAnimation(AnimationUtils.alphaVisibleAnimation((int) (OFFSET * 3.5)));
 
             AnimationSet animSet1 = new AnimationSet(true);
             animSet1.setFillAfter(true);
-            animSet1.addAnimation(TrainingViewAnimations.alphaVisibleAnimation(OFFSET * 4));
-            animSet1.addAnimation(TrainingViewAnimations.alphaHideAnimation(OFFSET * 24));
+            animSet1.addAnimation(AnimationUtils.alphaVisibleAnimation(OFFSET * 4));
+            animSet1.addAnimation(AnimationUtils.alphaHideAnimation(OFFSET * 24));
 
             final TextView amountTxt = (TextView) mRootView.findViewById(R.id.amount_txt);
             amountTxt.setVisibility(View.VISIBLE);
@@ -292,8 +292,8 @@ public class TrainingInsetFriendPayFragment extends BaseFragment {
 
             AnimationSet animSet2 = new AnimationSet(true);
             animSet2.setFillAfter(true);
-            animSet2.addAnimation(TrainingViewAnimations.alphaVisibleAnimation(OFFSET * 10));
-            animSet2.addAnimation(TrainingViewAnimations.alphaHideAnimation(OFFSET * 22));
+            animSet2.addAnimation(AnimationUtils.alphaVisibleAnimation(OFFSET * 10));
+            animSet2.addAnimation(AnimationUtils.alphaHideAnimation(OFFSET * 22));
 
             View requestPayLayout = mRootView.findViewById(R.id.request_pay_layout);
             requestPayLayout.setVisibility(View.VISIBLE);
@@ -301,7 +301,7 @@ public class TrainingInsetFriendPayFragment extends BaseFragment {
 
             View payRippleView = mRootView.findViewById(R.id.pay_ripple_view);
             payRippleView.setVisibility(View.VISIBLE);
-            payRippleView.startAnimation(TrainingViewAnimations.rippleAnimation(OFFSET * 16));
+            payRippleView.startAnimation(AnimationUtils.rippleAnimation(OFFSET * 16));
 
 
             View ovalBg = mRootView.findViewById(R.id.oval_bg);

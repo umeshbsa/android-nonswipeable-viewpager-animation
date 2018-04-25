@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion rootProject.COMPILE_SDK_VERSION
     defaultConfig {
-        applicationId "com.app.noswipeviewpager"
+        applicationId "com.app.movingpoc"
         minSdkVersion rootProject.MINIMUM_SDK_VERSION
         targetSdkVersion rootProject.TARGET_SDK_VERSION
         versionCode rootProject.VERSION_CODE
