@@ -1,5 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/linear_child2_root"
+    android:id="@+id/linear_outer2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
@@ -7,24 +7,23 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/tv_outer3_title"
+        android:id="@+id/tv_outer2_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Outer 3 Title"
+        android:text="Outer 2 Title"
         android:textColor="#000"
         android:textSize="20dp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/tv_outer3_desc"
+        android:id="@+id/tv_outer2_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="30dp"
-        android:text="Outer 3 Description Here. We can put Outer 3 page info here"
+        android:text="Outer 2 Description Here. We can put Outer 2 page info here"
         android:textColor="#000"
-        android:textSize="15dp" />
-
+        android:textSize="14dp" />
 
 </LinearLayout>

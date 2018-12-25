@@ -1,5 +1,4 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:urbanft="http://schemas.android.com/apk/res-auto"
     android:id="@+id/s_join_login_parent_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,13 +8,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.app.movingpoc.adapter.NonSwipeableViewPager
-            android:id="@+id/pager"
+        <com.app.moving.adapter.NonSwipeableViewPager
+            android:id="@+id/non_swip_outer_viewpager"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
         <RelativeLayout
-            android:id="@+id/insetLayout"
+            android:id="@+id/child_relative_layout"
             android:layout_width="match_parent"
             android:layout_height="400dp"
             android:layout_alignParentBottom="true"
@@ -28,17 +27,16 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:background="@drawable/ic_training_phone_mockup">
+                android:background="@drawable/icon_phone_bg">
 
-                <com.app.movingpoc.adapter.NonSwipeableViewPager
-                    android:id="@+id/pagerInner"
+                <com.app.moving.adapter.NonSwipeableViewPager
+                    android:id="@+id/non_swip_child_viewpager"
                     android:layout_width="match_parent"
-
                     android:layout_height="match_parent"
-                    android:layout_marginBottom="5dp"
                     android:layout_marginLeft="18.2dp"
+                    android:layout_marginTop="54.3dp"
                     android:layout_marginRight="18.6dp"
-                    android:layout_marginTop="54.3dp" />
+                    android:layout_marginBottom="5dp" />
 
             </LinearLayout>
         </RelativeLayout>

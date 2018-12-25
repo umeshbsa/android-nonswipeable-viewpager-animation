@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_child2_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/icon_map_bg" />
+
+    <RelativeLayout
+        android:id="@+id/tag1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_child3_pin1"
+            android:layout_width="37dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="28dp"
+            android:src="@drawable/icon_pin_swing" />
+
+        <ImageView
+            android:id="@+id/iv_child3_pin1_swing"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/iv_child3_pin1"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="-6dp"
+            android:layout_toRightOf="@+id/iv_child3_pin1"
+            android:src="@drawable/icon_pin1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/tag1"
+        android:paddingLeft="20dp">
+
+        <ImageView
+            android:id="@+id/iv_child3_pin2"
+            android:layout_width="37dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_pin_swing" />
+
+        <ImageView
+            android:id="@+id/iv_child3_pin2_swing"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/iv_child3_pin2"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="-6dp"
+            android:layout_toRightOf="@+id/iv_child3_pin2"
+            android:src="@drawable/icon_pin1" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
